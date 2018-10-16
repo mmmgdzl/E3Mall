@@ -1,64 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c2d386a-8bc6-4f8f-81f3-788c8b3da730" name="Default Changelist" comment="逆向工程执行完成">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-manager/e3-manager-dao/src/main/java/com/mmmgdzl/dao/TbContentCategoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-manager/e3-manager-dao/src/main/java/com/mmmgdzl/dao/TbContentCategoryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-manager/e3-manager-dao/src/main/java/com/mmmgdzl/dao/TbContentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-manager/e3-manager-dao/src/main/java/com/mmmgdzl/dao/TbContentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-manager/e3-manager-dao/src/main/java/com/mmmgdzl/dao/TbItemCatMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-manager/e3-manager-dao/src/main/java/com/mmmgdzl/dao/TbItemCatMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-manager/e3-manager-dao/src/main/java/com/mmmgdzl/dao/TbItemDescMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-manager/e3-manager-dao/src/main/java/com/mmmgdzl/dao/TbItemDescMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-manager/e3-manager-dao/src/main/java/com/mmmgdzl/dao/TbItemMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-manager/e3-manager-dao/src/main/java/com/mmmgdzl/dao/TbItemMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-manager/e3-manager-dao/src/main/java/com/mmmgdzl/dao/TbItemParamItemMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-manager/e3-manager-dao/src/main/java/com/mmmgdzl/dao/TbItemParamItemMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-manager/e3-manager-dao/src/main/java/com/mmmgdzl/dao/TbItemParamMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-manager/e3-manager-dao/src/main/java/com/mmmgdzl/dao/TbItemParamMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-manager/e3-manager-dao/src/main/java/com/mmmgdzl/dao/TbOrderItemMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-manager/e3-manager-dao/src/main/java/com/mmmgdzl/dao/TbOrderItemMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-manager/e3-manager-dao/src/main/java/com/mmmgdzl/dao/TbOrderMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-manager/e3-manager-dao/src/main/java/com/mmmgdzl/dao/TbOrderMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-manager/e3-manager-dao/src/main/java/com/mmmgdzl/dao/TbOrderShippingMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-manager/e3-manager-dao/src/main/java/com/mmmgdzl/dao/TbOrderShippingMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-manager/e3-manager-dao/src/main/java/com/mmmgdzl/dao/TbUserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-manager/e3-manager-dao/src/main/java/com/mmmgdzl/dao/TbUserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-manager/e3-manager-pojo/src/main/java/com/mmmgdzl/pojo/TbContent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-manager/e3-manager-pojo/src/main/java/com/mmmgdzl/pojo/TbContentCategory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-manager/e3-manager-pojo/src/main/java/com/mmmgdzl/pojo/TbContentCategoryExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-manager/e3-manager-pojo/src/main/java/com/mmmgdzl/pojo/TbContentExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-manager/e3-manager-pojo/src/main/java/com/mmmgdzl/pojo/TbItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-manager/e3-manager-pojo/src/main/java/com/mmmgdzl/pojo/TbItemCat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-manager/e3-manager-pojo/src/main/java/com/mmmgdzl/pojo/TbItemCatExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-manager/e3-manager-pojo/src/main/java/com/mmmgdzl/pojo/TbItemDesc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-manager/e3-manager-pojo/src/main/java/com/mmmgdzl/pojo/TbItemDescExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-manager/e3-manager-pojo/src/main/java/com/mmmgdzl/pojo/TbItemExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-manager/e3-manager-pojo/src/main/java/com/mmmgdzl/pojo/TbItemParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-manager/e3-manager-pojo/src/main/java/com/mmmgdzl/pojo/TbItemParamExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-manager/e3-manager-pojo/src/main/java/com/mmmgdzl/pojo/TbItemParamItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-manager/e3-manager-pojo/src/main/java/com/mmmgdzl/pojo/TbItemParamItemExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-manager/e3-manager-pojo/src/main/java/com/mmmgdzl/pojo/TbOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-manager/e3-manager-pojo/src/main/java/com/mmmgdzl/pojo/TbOrderExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-manager/e3-manager-pojo/src/main/java/com/mmmgdzl/pojo/TbOrderItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-manager/e3-manager-pojo/src/main/java/com/mmmgdzl/pojo/TbOrderItemExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-manager/e3-manager-pojo/src/main/java/com/mmmgdzl/pojo/TbOrderShipping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-manager/e3-manager-pojo/src/main/java/com/mmmgdzl/pojo/TbOrderShippingExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-manager/e3-manager-pojo/src/main/java/com/mmmgdzl/pojo/TbUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-manager/e3-manager-pojo/src/main/java/com/mmmgdzl/pojo/TbUserExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/e3managerweb_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/e3managerweb_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="5c2d386a-8bc6-4f8f-81f3-788c8b3da730" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/e3-manager/e3-manager-web/src/main/resources/conf/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e3-manager/e3-manager-web/src/main/resources/mybatis/SqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e3-manager/e3-manager-web/src/main/resources/spring/applicationContext-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e3-manager/e3-manager-web/src/main/resources/spring/applicationContext-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e3-manager/e3-manager-web/src/main/resources/spring/applicationContext-trans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e3-manager/e3-manager-web/src/main/resources/spring/springmvc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager/e3-manager-dao/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/e3-manager/e3-manager-dao/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager/e3-manager-dao/target/e3-manager-dao.jar" beforeDir="false" afterPath="$PROJECT_DIR$/e3-manager/e3-manager-dao/target/e3-manager-dao.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager/e3-manager-interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/e3-manager/e3-manager-interface/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager/e3-manager-interface/target/e3-manager-interface.jar" beforeDir="false" afterPath="$PROJECT_DIR$/e3-manager/e3-manager-interface/target/e3-manager-interface.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager/e3-manager-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/e3-manager/e3-manager-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager/e3-manager-service/target/e3-manager-service.jar" beforeDir="false" afterPath="$PROJECT_DIR$/e3-manager/e3-manager-service/target/e3-manager-service.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager/e3-manager-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/e3-manager/e3-manager-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager/e3-manager-web/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/e3-manager/e3-manager-web/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/e3-manager/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e3-manager/e3-manager-web/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/e3-manager/e3-manager-web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/../e3-common/target/" />
@@ -87,28 +38,32 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="properties" value="14" />
           <entry key="txt" value="56" />
-          <entry key="xml" value="285" />
+          <entry key="xml" value="407" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="56" />
-          <entry key="XML" value="285" />
+          <entry key="Properties" value="14" />
+          <entry key="XML" value="407" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="0-SNAPSHOT" value="1" />
           <entry key="java" value="12" />
-          <entry key="xml" value="17" />
+          <entry key="properties" value="1" />
+          <entry key="xml" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JAVA" value="12" />
+          <entry key="Properties" value="1" />
           <entry key="UML" value="1" />
-          <entry key="XML" value="17" />
+          <entry key="XML" value="24" />
         </counts>
       </usages-collector>
     </session>
@@ -116,14 +71,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/e3-manager/e3-manager-pojo/src/main/java/com/mmmgdzl/pojo/TbOrderItemExample.java">
+        <entry file="file://$PROJECT_DIR$/e3-manager/e3-manager-web/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="e#259#260#0" expanded="true" />
-                <element signature="e#315#316#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="133">
+              <caret line="13" column="57" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -138,11 +89,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/e3-manager/e3-manager-web/src/main/resources/spring/applicationContext-trans.xml" root0="SKIP_INSPECTION" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/e3-common/pom.xml" />
-        <option value="$PROJECT_DIR$/e3-manager/e3-manager-web/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/e3-manager/e3-manager-interface/pom.xml" />
         <option value="$PROJECT_DIR$/e3-manager/e3-manager-service/pom.xml" />
         <option value="$PROJECT_DIR$/e3-manager/e3-manager-dao/pom.xml" />
@@ -152,6 +105,13 @@
         <option value="$PROJECT_DIR$/e3-manager/e3-manager-pojo/src/main/java/pojo/TbItem.java" />
         <option value="$PROJECT_DIR$/e3-manager/e3-manager-pojo/src/main/java/com/mmmgdzl/pojo/TbItem.java" />
         <option value="$PROJECT_DIR$/e3-manager/e3-manager-dao/src/main/java/com/mmmgdzl/dao/TbContentCategoryMapper.java" />
+        <option value="$PROJECT_DIR$/e3-manager/e3-manager-web/src/main/resources/mybatis/SqlMapConfig.xml" />
+        <option value="$PROJECT_DIR$/e3-manager/e3-manager-web/src/main/resources/conf/db.properties" />
+        <option value="$PROJECT_DIR$/e3-manager/e3-manager-web/src/main/resources/spring/applicationContext-dao.xml" />
+        <option value="$PROJECT_DIR$/e3-manager/e3-manager-web/src/main/resources/spring/applicationContext-service.xml" />
+        <option value="$PROJECT_DIR$/e3-manager/e3-manager-web/src/main/resources/spring/applicationContext-trans.xml" />
+        <option value="$PROJECT_DIR$/e3-manager/e3-manager-web/src/main/resources/spring/springmvc.xml" />
+        <option value="$PROJECT_DIR$/e3-manager/e3-manager-web/src/main/webapp/WEB-INF/web.xml" />
       </list>
     </option>
   </component>
@@ -197,7 +157,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1750" />
@@ -222,6 +182,65 @@
               <item name="e3parent" type="462c0819:PsiDirectoryNode" />
               <item name="e3-manager" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="e3parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="e3parent" type="462c0819:PsiDirectoryNode" />
+              <item name="e3-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="e3-manager-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="e3parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="e3parent" type="462c0819:PsiDirectoryNode" />
+              <item name="e3-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="e3-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="e3parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="e3parent" type="462c0819:PsiDirectoryNode" />
+              <item name="e3-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="e3-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="e3parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="e3parent" type="462c0819:PsiDirectoryNode" />
+              <item name="e3-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="e3-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="e3parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="e3parent" type="462c0819:PsiDirectoryNode" />
+              <item name="e3-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="e3-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="e3parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="e3parent" type="462c0819:PsiDirectoryNode" />
+              <item name="e3-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="e3-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="e3parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="e3parent" type="462c0819:PsiDirectoryNode" />
+              <item name="e3-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="e3-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -233,17 +252,18 @@
     <property name="SearchEverywhereHistoryKey" value="maven&#9;ACTION&#9;ActivateMavenProjectsToolWindow" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539711579114" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539713794099" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/e3-manager/e3-manager-web/src/main/webapp" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15136719" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\IWork-ideaIU\E3\e3parent\e3-manager\e3-manager-web\src\main\resources\spring" />
       <recent name="F:\IWork-ideaIU\E3\e3parent\e3-manager\e3-manager-dao\src\main\java\com\mmmgdzl\dao" />
       <recent name="F:\IWork-ideaIU\E3\e3parent\e3-manager\e3-manager-pojo\src\main\java" />
     </key>
@@ -271,7 +291,7 @@
       <option name="presentableId" value="Default" />
       <updated>1539692144306</updated>
       <workItem from="1539692146083" duration="6105000" />
-      <workItem from="1539703163269" duration="4491000" />
+      <workItem from="1539703163269" duration="6618000" />
     </task>
     <task id="LOCAL-00001" summary="e3-parent上传">
       <created>1539692281310</created>
@@ -308,11 +328,18 @@
       <option name="project" value="LOCAL" />
       <updated>1539698338325</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="逆向工程执行完成">
+      <created>1539711643833</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1539711643833</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10894000" />
+    <option name="totallyTimeSpent" value="13021000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -327,7 +354,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989059" visible="true" weight="0.16487935" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989059" visible="true" weight="0.16487935" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -335,7 +362,7 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info id="Image Layers" order="7" />
-      <window_info anchor="bottom" id="Spring" weight="0.32991204" />
+      <window_info anchor="bottom" id="Spring" visible="true" weight="0.32991204" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Debug" order="2" weight="0.4" />
@@ -348,14 +375,14 @@
       <window_info anchor="bottom" id="Java Enterprise" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.32991204" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32991204" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" visible="true" weight="0.18431635" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.18431635" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
@@ -409,13 +436,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="38" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e3-manager/e3-manager-web/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -536,12 +556,67 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/e3-manager/e3-manager-pojo/src/main/java/com/mmmgdzl/pojo/TbOrderItemExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="209">
+          <caret line="106" column="39" lean-forward="true" selection-start-line="106" selection-start-column="39" selection-end-line="106" selection-end-column="39" />
           <folding>
             <element signature="e#259#260#0" expanded="true" />
             <element signature="e#315#316#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3-manager/e3-manager-web/src/main/resources/conf/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3-manager/e3-manager-web/src/main/resources/spring/applicationContext-trans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="32" column="76" lean-forward="true" selection-start-line="32" selection-start-column="76" selection-end-line="32" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3-manager/e3-manager-web/src/main/resources/spring/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="61" selection-start-line="2" selection-start-column="61" selection-end-line="2" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3-manager/e3-manager-web/src/main/resources/spring/applicationContext-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3-manager/e3-manager-web/src/main/resources/spring/applicationContext-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+          <folding>
+            <element signature="e#1236#1249#0" expanded="true" />
+            <element signature="e#1293#1311#0" expanded="true" />
+            <element signature="e#1355#1373#0" expanded="true" />
+            <element signature="e#1424#1440#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3-manager/e3-manager-web/src/main/resources/mybatis/SqlMapConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e3-manager/e3-manager-web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="13" column="57" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
         </state>
       </provider>
     </entry>
@@ -599,7 +674,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Web|e3managerweb</last-edited>
+          <last-edited>Spring|e3managerweb</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -611,7 +686,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: com.mmmgdzl:e3-common:unknown</last-edited>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
