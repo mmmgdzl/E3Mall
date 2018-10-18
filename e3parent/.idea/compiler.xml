@@ -12,6 +12,7 @@
         <module name="e3managerinterface" />
         <module name="e3managerpojo" />
         <module name="e3managerservice" />
+        <module name="pagehelper" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
