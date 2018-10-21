@@ -27,4 +27,5 @@
     <dubbo:application name="e3-manager-web"/>
     <dubbo:registry protocol="zookeeper" address="192.168.142.132:2181"/>
     <dubbo:reference interface="com.mmmgdzl.service.ItemService" id="itemService" />
+    <dubbo:reference interface="com.mmmgdzl.service.ItemCatService" id="itemCatService" />
 </beans>

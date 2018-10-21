@@ -39,6 +39,7 @@ public class ItemServiceImpl implements ItemService {
 
         //获取分页结果
         PageInfo<TbItem> pageInfo = new PageInfo<>(list);
+
         //取总记录数
         result.setTotal(pageInfo.getTotal());
         

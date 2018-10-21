@@ -14,5 +14,4 @@ public interface ItemService {
      */
     EasyUIDataGridResult getItemList(Integer page, Integer rows);
 
-
 }
