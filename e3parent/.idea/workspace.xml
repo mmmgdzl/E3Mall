@@ -7,28 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c2d386a-8bc6-4f8f-81f3-788c8b3da730" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-common/src/main/java/com/mmmgdlz/common/pojo/EasyUITreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-manager-web/src/main/java/com/mmmgdzl/controller/ItemCatController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-manager/e3-manager-interface/src/main/java/com/mmmgdzl/service/ItemCatService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-manager/e3-manager-service/src/main/java/com/mmmgdzl/service/impl/ItemCatServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-common/target/e3-common.jar" beforeDir="false" afterPath="$PROJECT_DIR$/e3-common/target/e3-common.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-common/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/e3-common/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/e3-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager-web/src/main/resources/spring/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/e3-manager-web/src/main/resources/spring/springmvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager-web/src/main/webapp/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/e3-manager-web/src/main/webapp/js/common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager/e3-manager-interface/src/main/java/com/mmmgdzl/service/ItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/e3-manager/e3-manager-interface/src/main/java/com/mmmgdzl/service/ItemService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager/e3-manager-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/e3-manager/e3-manager-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager/e3-manager-service/src/main/java/com/mmmgdzl/service/impl/ItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/e3-manager/e3-manager-service/src/main/java/com/mmmgdzl/service/impl/ItemServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager/e3-manager-service/src/main/resources/spring/applicationContext-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/e3-manager/e3-manager-service/src/main/resources/spring/applicationContext-service.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager/e3-manager-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/e3-manager/e3-manager-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-web/e3-manager-web.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagehelper/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagehelper/target/classes/META-INF/maven/com.github.pagehelper/pagehelper/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagehelper/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/pagehelper/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagehelper/target/pagehelper-3.4.2-fix.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagehelper/target/pagehelper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/pagehelper/target/pagehelper.jar" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/../e3-common/target/" />
@@ -69,7 +48,7 @@
           <entry key="js" value="40" />
           <entry key="jsp" value="23" />
           <entry key="properties" value="15" />
-          <entry key="txt" value="119" />
+          <entry key="txt" value="131" />
           <entry key="xml" value="867" />
         </counts>
       </usages-collector>
@@ -78,7 +57,7 @@
           <entry key="JAVA" value="2832" />
           <entry key="JSP" value="23" />
           <entry key="JavaScript" value="40" />
-          <entry key="PLAIN_TEXT" value="119" />
+          <entry key="PLAIN_TEXT" value="131" />
           <entry key="Properties" value="15" />
           <entry key="XML" value="867" />
         </counts>
@@ -314,7 +293,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1750" />
@@ -572,7 +551,7 @@
     <property name="SearchEverywhereHistoryKey" value="maven&#9;ACTION&#9;ActivateMavenProjectsToolWindow" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540143381373" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540143448927" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/e3-manager/e3-manager-service/src/main/webapp/WEB-INF" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -802,7 +781,7 @@
       <workItem from="1539739865120" duration="237000" />
       <workItem from="1539755044284" duration="3044000" />
       <workItem from="1539766064462" duration="30564000" />
-      <workItem from="1540135086804" duration="7733000" />
+      <workItem from="1540135086804" duration="8396000" />
     </task>
     <task id="LOCAL-00001" summary="e3-parent上传">
       <created>1539692281310</created>
@@ -881,7 +860,14 @@
       <option name="project" value="LOCAL" />
       <updated>1539877890844</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="商品分类选择完成">
+      <created>1540143445983</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1540143445983</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -890,7 +876,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62655000" />
+    <option name="totallyTimeSpent" value="63318000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -902,10 +888,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989059" visible="true" weight="0.22252011" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989059" visible="true" weight="0.22252011" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -918,7 +903,7 @@
       <window_info anchor="bottom" id="Debug" order="2" weight="0.398827" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="Run" order="5" sideWeight="0.49932975" visible="true" weight="0.32991204" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49932975" visible="true" weight="0.32991204" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32991204" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50067025" side_tool="true" weight="0.32991204" />
@@ -956,7 +941,8 @@
     <MESSAGE value="警告测试" />
     <MESSAGE value="SOA架构改造完成" />
     <MESSAGE value="后台商品列表查询完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="后台商品列表查询完成" />
+    <MESSAGE value="商品分类选择完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="商品分类选择完成" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
