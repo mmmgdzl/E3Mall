@@ -1,7 +1,9 @@
 package com.mmmgdzl.service;
 
 import com.mmmgdlz.common.pojo.EasyUIDataGridResult;
+import com.mmmgdzl.common.utils.E3Result;
 import com.mmmgdzl.pojo.TbItem;
+import com.mmmgdzl.pojo.TbItemDesc;
 
 public interface ItemService {
     /**
@@ -14,4 +16,8 @@ public interface ItemService {
      */
     EasyUIDataGridResult getItemList(Integer page, Integer rows);
 
+    /**
+     * 添加新的商品信息
+     */
+    E3Result addItem(TbItem item, String desc);
 }

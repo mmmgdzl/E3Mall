@@ -12,12 +12,13 @@
         <module name="e3managerinterface" />
         <module name="e3managerpojo" />
         <module name="e3managerservice" />
-        <module name="pagehelper" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="e3-common" target="1.8" />
       <module name="e3managerweb" target="1.8" />
+      <module name="fastdfs_client" target="1.8" />
+      <module name="pagehelper" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -1,2 +1,6 @@
+com\mmmgdzl\common\utils\IDUtils.class
 com\mmmgdlz\common\pojo\EasyUITreeNode.class
+com\mmmgdzl\common\utils\E3Result.class
+com\mmmgdzl\common\utils\FastDFSClient.class
 com\mmmgdlz\common\pojo\EasyUIDataGridResult.class
+com\mmmgdzl\common\utils\JsonUtils.class
