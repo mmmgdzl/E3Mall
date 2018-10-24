@@ -61,7 +61,7 @@ public class ContentCategoryServiceImpl implements ContentCategoryService {
         if(!parent.getIsParent()) {
             //修改父节点的isParent属性为1
             parent.setIsParent(true);
-            tbContentCategoryMapper.updateByPrimaryKey(tbContentCategory);
+            tbContentCategoryMapper.updateByPrimaryKey(parent);
         }
         //创建E3Result对象
         return E3Result.ok(tbContentCategory);
