@@ -1,6 +1,6 @@
 package com.mmmgdzl.controller;
 
-import com.mmmgdlz.common.pojo.EasyUITreeNode;
+import com.mmmgdzl.common.pojo.EasyUITreeNode;
 import com.mmmgdzl.service.ItemCatService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

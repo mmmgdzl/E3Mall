@@ -1,6 +1,6 @@
 package com.mmmgdzl.content.service.impl;
 
-import com.mmmgdlz.common.pojo.EasyUITreeNode;
+import com.mmmgdzl.common.pojo.EasyUITreeNode;
 import com.mmmgdzl.common.utils.E3Result;
 import com.mmmgdzl.content.service.ContentCategoryService;
 import com.mmmgdzl.mapper.TbContentCategoryMapper;

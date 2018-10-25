@@ -1,6 +1,6 @@
 package com.mmmgdzl.service.impl;
 
-import com.mmmgdlz.common.pojo.EasyUITreeNode;
+import com.mmmgdzl.common.pojo.EasyUITreeNode;
 import com.mmmgdzl.mapper.TbItemCatMapper;
 import com.mmmgdzl.pojo.TbItemCat;
 import com.mmmgdzl.pojo.TbItemCatExample;

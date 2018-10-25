@@ -1,9 +1,8 @@
 package com.mmmgdzl.service;
 
-import com.mmmgdlz.common.pojo.EasyUIDataGridResult;
+import com.mmmgdzl.common.pojo.EasyUIDataGridResult;
 import com.mmmgdzl.common.utils.E3Result;
 import com.mmmgdzl.pojo.TbItem;
-import com.mmmgdzl.pojo.TbItemDesc;
 
 public interface ItemService {
     /**

@@ -2,7 +2,7 @@ package com.mmmgdzl.service.impl;
 
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
-import com.mmmgdlz.common.pojo.EasyUIDataGridResult;
+import com.mmmgdzl.common.pojo.EasyUIDataGridResult;
 import com.mmmgdzl.common.utils.E3Result;
 import com.mmmgdzl.common.utils.IDUtils;
 import com.mmmgdzl.mapper.TbItemDescMapper;

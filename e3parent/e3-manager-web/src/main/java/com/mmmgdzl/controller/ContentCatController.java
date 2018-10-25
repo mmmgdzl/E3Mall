@@ -1,6 +1,6 @@
 package com.mmmgdzl.controller;
 
-import com.mmmgdlz.common.pojo.EasyUITreeNode;
+import com.mmmgdzl.common.pojo.EasyUITreeNode;
 import com.mmmgdzl.common.utils.E3Result;
 import com.mmmgdzl.content.service.ContentCategoryService;
 import org.springframework.beans.factory.annotation.Autowired;

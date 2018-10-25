@@ -1,6 +1,6 @@
 package com.mmmgdzl.content.service;
 
-import com.mmmgdlz.common.pojo.EasyUITreeNode;
+import com.mmmgdzl.common.pojo.EasyUITreeNode;
 import com.mmmgdzl.common.utils.E3Result;
 
 import java.util.List;
