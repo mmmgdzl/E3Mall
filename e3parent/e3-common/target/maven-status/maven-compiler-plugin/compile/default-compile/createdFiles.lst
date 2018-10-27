@@ -4,6 +4,8 @@ com\mmmgdzl\common\jedis\JedisClient.class
 com\mmmgdzl\common\jedis\JedisClientCluster.class
 com\mmmgdzl\common\jedis\JedisClientPool.class
 com\mmmgdzl\common\pojo\EasyUITreeNode.class
+com\mmmgdzl\common\pojo\SearchResult.class
 com\mmmgdzl\common\pojo\EasyUIDataGridResult.class
+com\mmmgdzl\common\pojo\SearchItem.class
 com\mmmgdzl\common\utils\FastDFSClient.class
 com\mmmgdzl\common\utils\JsonUtils.class

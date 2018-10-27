@@ -1,5 +1,6 @@
 com\mmmgdzl\controller\ItemCatController.class
 com\mmmgdzl\controller\PictureController.class
+com\mmmgdzl\controller\SearchItemController.class
 com\mmmgdzl\controller\ItemController.class
 com\mmmgdzl\controller\ContentController.class
 com\mmmgdzl\controller\PageController.class

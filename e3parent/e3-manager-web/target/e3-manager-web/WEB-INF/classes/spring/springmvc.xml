@@ -42,4 +42,5 @@
     <dubbo:reference interface="com.mmmgdzl.service.ItemCatService" id="itemCatService" />
     <dubbo:reference interface="com.mmmgdzl.content.service.ContentCategoryService" id="contentCategoryService" />
     <dubbo:reference interface="com.mmmgdzl.content.service.ContentService" id="contentService" />
+    <dubbo:reference interface="com.mmmgdzl.search.service.SearchItemService" id="searchItemService" />
 </beans>
