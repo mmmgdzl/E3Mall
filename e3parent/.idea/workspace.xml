@@ -7,148 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c2d386a-8bc6-4f8f-81f3-788c8b3da730" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/e3-common/src/main/java/com/mmmgdzl/common/pojo/SearchItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-common/src/main/java/com/mmmgdzl/common/pojo/SearchResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-manager-web/src/main/java/com/mmmgdzl/controller/SearchItemController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/java/com/mmmgdzl/search/controller/SearchController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/resources/conf/resource.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/resources/spring/springmvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/WEB-INF/jsp/commons/footer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/WEB-INF/jsp/commons/header.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/WEB-INF/jsp/commons/mainmenu.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/WEB-INF/jsp/commons/shortcut.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/WEB-INF/jsp/error/exception.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/WEB-INF/jsp/search.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/css/all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/css/base_w1200.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/css/common.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/css/jquery.alerts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/css/jquery.autocomplete.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/css/productList.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/images/bottom_sm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/images/cate_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/images/dq_icon2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/images/error_img.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/images/foot/cd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/images/foot/logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/images/foot/qc.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/images/foot/qq.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/images/foot/sf.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/images/foot_bottom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/images/g_loading.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/images/header.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/images/html/042cc65a4fb9899878f2f37235ca1793.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/images/html/1463455028.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/images/html/1463456854.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/images/html/1468837571.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/images/html/1471311388.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/images/html/1471311447.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/images/html/1472521203.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/images/html/1472521236.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/images/html/1472521250.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/images/html/1748dcf682d7f595012e4309695d71d9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/images/html/20160829181637762.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/images/html/26336113289bf7273823080488a9d200.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/images/html/2a3ba6ffb33d8fca0dc848f94e3d99d8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/images/html/49111b8189bf71370cdb145f8fdb1195.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/images/html/4dd7317569a06a451c1fe7762d6bf928.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/images/html/516e4d058d1d65a3506e179642297b2d.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/images/html/51e357022c1f826f13211222831a4b13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/images/html/600c425e04b41f49e451d2fdbafb6e45.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/images/html/751d2091c008c2a49c1934545730f041.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/images/html/757e35fab995b43c23b4396dc3ba4269.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/images/html/7a80fda907bf5107f6967add2a304a51.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/images/html/7cc96c14e10f6ed8db28b4b1efdfdb07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/images/html/838abc2055e36f423701de255bbc9914.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/images/html/8f42d6d2deead3da7d50c8a702a3c939.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/images/html/95256f5b2857ec28914f631532508d76.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/images/html/aa472cb9f9624d22d1fcfd1c4dffbe42.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/images/html/c11e0d59289782b09ea1cbcb98070017.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/images/html/c3449a684bebe21f5b6c6c79e46791ff.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/images/html/cf33d7d36f1128577782ded21fe812a9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/images/html/ddf3f66b114f3a3bfbbe0b47693cdbf0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/images/html/de66a063548629c8d4e639523d8c9c6e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/images/html/e886f76e03f7a3596033eb34ca362339.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/images/html/logo_word.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/images/indexImg20130307.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/images/index_icon_new.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/images/indexsprite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/images/kxicon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/images/left_lm_m_a.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/images/logo66.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/images/productList.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/js/NewVersion.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/js/cart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/js/common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/js/cookie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/js/e3mall.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/js/jquery-1.5.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/js/jquery.alerts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/js/jquery.cookie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/js/shadow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search/e3-search-interface/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search/e3-search-interface/src/main/java/com/mmmgdzl/search/service/SearchItemService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search/e3-search-interface/src/main/java/com/mmmgdzl/search/service/SearchService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search/e3-search-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search/e3-search-service/src/main/java/com/mmmgdzl/search/dao/SearchDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search/e3-search-service/src/main/java/com/mmmgdzl/search/mapper/ItemMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search/e3-search-service/src/main/java/com/mmmgdzl/search/mapper/ItemMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search/e3-search-service/src/main/java/com/mmmgdzl/search/service/impl/SearchItemServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search/e3-search-service/src/main/java/com/mmmgdzl/search/service/impl/SearchServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search/e3-search-service/src/main/resources/conf/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search/e3-search-service/src/main/resources/conf/resource.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search/e3-search-service/src/main/resources/mybatis/SqlMapConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search/e3-search-service/src/main/resources/spring/applicationContext-dao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search/e3-search-service/src/main/resources/spring/applicationContext-service.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search/e3-search-service/src/main/resources/spring/applicationContext-solr.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search/e3-search-service/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e3-search/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-common/target/e3-common.jar" beforeDir="false" afterPath="$PROJECT_DIR$/e3-common/target/e3-common.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-common/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/e3-common/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/e3-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/e3-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/e3-manager-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager-web/src/main/resources/spring/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/e3-manager-web/src/main/resources/spring/springmvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager-web/target/classes/spring/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/e3-manager-web/target/classes/spring/springmvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager-web/target/e3-manager-web.war" beforeDir="false" afterPath="$PROJECT_DIR$/e3-manager-web/target/e3-manager-web.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager-web/target/e3-manager-web/WEB-INF/classes/spring/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/e3-manager-web/target/e3-manager-web/WEB-INF/classes/spring/springmvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager-web/target/e3-manager-web/WEB-INF/lib/e3-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/e3-manager-web/target/e3-manager-web/WEB-INF/lib/e3-common-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager-web/target/e3-manager-web/WEB-INF/lib/e3-manager-interface-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/e3-manager-web/target/e3-manager-web/WEB-INF/lib/e3-manager-interface-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager-web/target/e3-manager-web/WEB-INF/lib/e3-manager-pojo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/e3-manager-web/target/e3-manager-web/WEB-INF/lib/e3-manager-pojo-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager-web/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/e3-manager-web/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/e3-manager-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/e3-manager-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager-web/target/tomcat/conf/logging.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager-web/target/tomcat/conf/tomcat-users.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager-web/target/tomcat/conf/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/index_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/index_jsp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager/e3-manager-dao/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/e3-manager/e3-manager-dao/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager/e3-manager-dao/target/e3-manager-dao.jar" beforeDir="false" afterPath="$PROJECT_DIR$/e3-manager/e3-manager-dao/target/e3-manager-dao.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager/e3-manager-dao/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/e3-manager/e3-manager-dao/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager/e3-manager-interface/target/e3-manager-interface.jar" beforeDir="false" afterPath="$PROJECT_DIR$/e3-manager/e3-manager-interface/target/e3-manager-interface.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager/e3-manager-interface/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/e3-manager/e3-manager-interface/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager/e3-manager-pojo/target/e3-manager-pojo.jar" beforeDir="false" afterPath="$PROJECT_DIR$/e3-manager/e3-manager-pojo/target/e3-manager-pojo.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager/e3-manager-pojo/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/e3-manager/e3-manager-pojo/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager/e3-manager-service/target/e3-manager-service.war" beforeDir="false" afterPath="$PROJECT_DIR$/e3-manager/e3-manager-service/target/e3-manager-service.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager/e3-manager-service/target/e3-manager-service/WEB-INF/lib/e3-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/e3-manager/e3-manager-service/target/e3-manager-service/WEB-INF/lib/e3-common-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager/e3-manager-service/target/e3-manager-service/WEB-INF/lib/e3-manager-dao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/e3-manager/e3-manager-service/target/e3-manager-service/WEB-INF/lib/e3-manager-dao-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager/e3-manager-service/target/e3-manager-service/WEB-INF/lib/e3-manager-interface-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/e3-manager/e3-manager-service/target/e3-manager-service/WEB-INF/lib/e3-manager-interface-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager/e3-manager-service/target/e3-manager-service/WEB-INF/lib/e3-manager-pojo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/e3-manager/e3-manager-service/target/e3-manager-service/WEB-INF/lib/e3-manager-pojo-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager/e3-manager-service/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/e3-manager/e3-manager-service/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager/e3-manager-service/target/surefire-reports/TEST-com.mmmgdzl.pagehelper.PageHelperTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/e3-manager/e3-manager-service/target/surefire-reports/TEST-com.mmmgdzl.pagehelper.PageHelperTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager/e3-manager-service/target/surefire-reports/com.mmmgdzl.pagehelper.PageHelperTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/e3-manager/e3-manager-service/target/surefire-reports/com.mmmgdzl.pagehelper.PageHelperTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager/e3-manager-service/target/tomcat/conf/logging.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager/e3-manager-service/target/tomcat/conf/tomcat-users.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-manager/e3-manager-service/target/tomcat/conf/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e3-portal-web/src/main/webapp/WEB-INF/jsp/commons/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/e3-portal-web/src/main/webapp/WEB-INF/jsp/commons/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/../e3-common/target/" />
@@ -206,7 +65,7 @@
           <entry key="js" value="40" />
           <entry key="jsp" value="220" />
           <entry key="properties" value="188" />
-          <entry key="txt" value="163" />
+          <entry key="txt" value="186" />
           <entry key="xml" value="2836" />
         </counts>
       </usages-collector>
@@ -216,7 +75,7 @@
           <entry key="JAVA" value="12708" />
           <entry key="JSP" value="220" />
           <entry key="JavaScript" value="40" />
-          <entry key="PLAIN_TEXT" value="207" />
+          <entry key="PLAIN_TEXT" value="230" />
           <entry key="Properties" value="188" />
           <entry key="SQL" value="29" />
           <entry key="XML" value="2807" />
@@ -276,8 +135,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/e3-search-web/src/main/webapp/WEB-INF/jsp/search.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="46" column="27" lean-forward="true" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
+            <state relative-caret-position="257">
+              <caret line="81" column="11" lean-forward="true" selection-start-line="81" selection-start-column="11" selection-end-line="81" selection-end-column="11" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -775,7 +634,7 @@
     <property name="SearchEverywhereHistoryKey" value="search_key&#9;null&#9;null&#10;sql&#9;FILE&#9;file://F:/IWork-ideaIU/E3/e3parent/e3-content/e3-content-service/src/main/resources/mybatis/SqlMapConfig.xml&#10;index.&#9;FILE&#9;file://F:/IWork-ideaIU/E3/e3parent/e3-portal-web/src/main/webapp/WEB-INF/jsp/index.jsp&#10;content-add&#9;FILE&#9;file://F:/IWork-ideaIU/E3/e3parent/e3-manager-web/src/main/webapp/WEB-INF/jsp/content-add.jsp&#10;content-&#9;FILE&#9;file://F:/IWork-ideaIU/E3/e3parent/e3-manager-web/src/main/webapp/WEB-INF/jsp/content-category.jsp&#10;content-c&#9;FILE&#9;file://F:/IWork-ideaIU/E3/e3parent/e3-manager-web/src/main/webapp/WEB-INF/jsp/content-category.jsp&#10;trackercli&#9;PSI&#9;JAVA://com.mmmgdzl.common.utils.FastDFSClient#trackerClient&#10;trackerclien&#9;PSI&#9;JAVA://org.csource.fastdfs.TrackerClient&#10;tracker&#9;PSI&#9;JAVA://org.csource.fastdfs.TrackerGroup&#10;maven&#9;ACTION&#9;ActivateMavenProjectsToolWindow" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540618718954" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540619138425" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/e3-search-web/src/main/webapp/WEB-INF" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -1166,7 +1025,7 @@
       <workItem from="1540399030982" duration="6822000" />
       <workItem from="1540443669211" duration="76000" />
       <workItem from="1540465431709" duration="9628000" />
-      <workItem from="1540555342564" duration="14966000" />
+      <workItem from="1540555342564" duration="15575000" />
     </task>
     <task id="LOCAL-00001" summary="e3-parent上传">
       <created>1539692281310</created>
@@ -1280,7 +1139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1540490919415</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="solr索引更新(后台),索引查询完成">
+      <created>1540618826983</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1540618826983</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1310,7 +1176,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133025000" />
+    <option name="totallyTimeSpent" value="133634000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1338,7 +1204,7 @@
       <window_info anchor="bottom" id="Debug" order="2" weight="0.398827" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="Run" order="5" sideWeight="0.49865952" visible="true" weight="0.32991204" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49865952" visible="true" weight="0.32991204" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32991204" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5013405" side_tool="true" weight="0.32991204" />
@@ -1354,7 +1220,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" visible="true" weight="0.23391421" />
+      <window_info active="true" anchor="right" id="Maven Projects" order="6" visible="true" weight="0.23391421" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
@@ -1381,7 +1247,8 @@
     <MESSAGE value="内容管理列表功能完成" />
     <MESSAGE value="内容管理功能完成，首页轮播图完成" />
     <MESSAGE value="redis缓存完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="redis缓存完成" />
+    <MESSAGE value="solr索引更新(后台),索引查询完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="solr索引更新(后台),索引查询完成" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1775,8 +1642,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/e3-search-web/src/main/webapp/WEB-INF/jsp/search.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="46" column="27" lean-forward="true" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
+        <state relative-caret-position="257">
+          <caret line="81" column="11" lean-forward="true" selection-start-line="81" selection-start-column="11" selection-end-line="81" selection-end-column="11" />
           <folding>
             <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
