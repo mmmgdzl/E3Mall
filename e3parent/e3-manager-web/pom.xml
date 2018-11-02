@@ -128,7 +128,7 @@
                 <artifactId>tomcat7-maven-plugin</artifactId>
                 <configuration>
                     <path>/</path>
-                    <port>8085</port>
+                    <port>8079</port>
                 </configuration>
             </plugin>
         </plugins>
