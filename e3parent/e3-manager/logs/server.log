@@ -1,0 +1,668 @@
+
+
+[INFO ] 2018-11-04 00:21:28,757 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:307)
+Root WebApplicationContext: initialization started
+
+
+[INFO ] 2018-11-04 00:21:28,975 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578)
+Refreshing Root WebApplicationContext: startup date [Sun Nov 04 00:21:28 CST 2018]; root of context hierarchy
+
+
+[INFO ] 2018-11-04 00:21:29,054 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [F:\IWork-ideaIU\E3\e3parent\e3-manager\e3-manager-service\target\classes\spring\applicationContext-activemq.xml]
+
+
+[INFO ] 2018-11-04 00:21:29,204 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [F:\IWork-ideaIU\E3\e3parent\e3-manager\e3-manager-service\target\classes\spring\applicationContext-dao.xml]
+
+
+[INFO ] 2018-11-04 00:21:29,287 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [F:\IWork-ideaIU\E3\e3parent\e3-manager\e3-manager-service\target\classes\spring\applicationContext-service.xml]
+
+
+[INFO ] 2018-11-04 00:21:29,442 method:
+using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+
+
+[INFO ] 2018-11-04 00:21:29,498 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [F:\IWork-ideaIU\E3\e3parent\e3-manager\e3-manager-service\target\classes\spring\applicationContext-trans.xml]
+
+
+[INFO ] 2018-11-04 00:21:29,842 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from class path resource [conf/db.properties]
+
+
+[INFO ] 2018-11-04 00:21:29,855 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[WARN ] 2018-11-04 00:21:31,627 method:org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'itemServiceImpl': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type [javax.jms.Destination] is defined: expected single matching bean but found 2: queueDestination,topicDestination
+
+
+[ERROR] 2018-11-04 00:21:31,633 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:353)
+Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'itemServiceImpl': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type [javax.jms.Destination] is defined: expected single matching bean but found 2: queueDestination,topicDestination
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessPropertyValues(CommonAnnotationBeanPostProcessor.java:311)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:772)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:839)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:538)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:446)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:328)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4939)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5434)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type [javax.jms.Destination] is defined: expected single matching bean but found 2: queueDestination,topicDestination
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1126)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1014)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:508)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:486)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:615)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:169)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessPropertyValues(CommonAnnotationBeanPostProcessor.java:308)
+	... 22 more
+
+
+[INFO ] 2018-11-04 00:28:29,163 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:307)
+Root WebApplicationContext: initialization started
+
+
+[INFO ] 2018-11-04 00:28:32,001 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578)
+Refreshing Root WebApplicationContext: startup date [Sun Nov 04 00:28:32 CST 2018]; root of context hierarchy
+
+
+[INFO ] 2018-11-04 00:28:32,292 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [F:\IWork-ideaIU\E3\e3parent\e3-manager\e3-manager-service\target\classes\spring\applicationContext-activemq.xml]
+
+
+[INFO ] 2018-11-04 00:28:33,828 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [F:\IWork-ideaIU\E3\e3parent\e3-manager\e3-manager-service\target\classes\spring\applicationContext-dao.xml]
+
+
+[INFO ] 2018-11-04 00:28:34,202 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [F:\IWork-ideaIU\E3\e3parent\e3-manager\e3-manager-service\target\classes\spring\applicationContext-service.xml]
+
+
+[INFO ] 2018-11-04 00:28:35,320 method:
+using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+
+
+[INFO ] 2018-11-04 00:28:35,420 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [F:\IWork-ideaIU\E3\e3parent\e3-manager\e3-manager-service\target\classes\spring\applicationContext-trans.xml]
+
+
+[INFO ] 2018-11-04 00:28:36,119 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from class path resource [conf/db.properties]
+
+
+[INFO ] 2018-11-04 00:28:36,150 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2018-11-04 00:28:41,138 method:com.alibaba.dubbo.config.spring.ServiceBean.onApplicationEvent(ServiceBean.java:107)
+ [DUBBO] The service ready on spring started. service: com.mmmgdzl.service.ItemService, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 00:28:41,358 method:com.alibaba.dubbo.config.ServiceConfig.exportLocal(ServiceConfig.java:510)
+ [DUBBO] Export dubbo service com.mmmgdzl.service.ItemService to local registry, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 00:28:41,359 method:com.alibaba.dubbo.config.ServiceConfig.doExportUrlsFor1Protocol(ServiceConfig.java:470)
+ [DUBBO] Export dubbo service com.mmmgdzl.service.ItemService to url dubbo://192.168.25.1:20880/com.mmmgdzl.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemService&methods=addItem,getItemList,getItemById&pid=25676&side=provider&timeout=60000&timestamp=1541262521194, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 00:28:41,359 method:com.alibaba.dubbo.config.ServiceConfig.doExportUrlsFor1Protocol(ServiceConfig.java:481)
+ [DUBBO] Register dubbo service com.mmmgdzl.service.ItemService url dubbo://192.168.25.1:20880/com.mmmgdzl.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemService&methods=addItem,getItemList,getItemById&pid=25676&side=provider&timeout=60000&timestamp=1541262521194 to registry registry://192.168.25.128:2181/com.alibaba.dubbo.registry.RegistryService?application=e3-manager&dubbo=2.5.3&pid=25676&registry=zookeeper&timestamp=1541262521151, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 00:28:42,258 method:com.alibaba.dubbo.remoting.transport.AbstractServer.<init>(AbstractServer.java:69)
+ [DUBBO] Start NettyServer bind /0.0.0.0:20880, export /192.168.25.1:20880, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 00:28:42,310 method:com.alibaba.dubbo.registry.support.AbstractRegistry.loadProperties(AbstractRegistry.java:232)
+ [DUBBO] Load registry store file C:\Users\Administrator\.dubbo\dubbo-registry-192.168.25.128.cache, data: {com.mmmgdzl.content.service.ContentCategoryService=empty://192.168.25.1:20881/com.mmmgdzl.content.service.ContentCategoryService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.mmmgdzl.content.service.ContentCategoryService&methods=addNode,update,getContentCatList,delete&pid=29284&side=provider&timeout=60000&timestamp=1541262489847, com.mmmgdzl.service.ItemService=empty://192.168.25.1/com.mmmgdzl.service.ItemService?application=e3-manager-web&category=configurators&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemService&methods=addItem,getItemList,getItemById&pid=16332&revision=1.0-SNAPSHOT&side=consumer&timestamp=1541055484550 empty://192.168.25.1/com.mmmgdzl.service.ItemService?application=e3-manager-web&category=routers&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemService&methods=addItem,getItemList,getItemById&pid=16332&revision=1.0-SNAPSHOT&side=consumer&timestamp=1541055484550 dubbo://192.168.25.1:20880/com.mmmgdzl.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemService&methods=getItemList,addItem,getItemById&pid=19916&side=provider&timeout=60000&timestamp=1541055387152, com.mmmgdzl.search.service.SearchItemService=empty://192.168.25.1:20882/com.mmmgdzl.search.service.SearchItemService?anyhost=true&application=e3-search&category=configurators&check=false&dubbo=2.5.3&interface=com.mmmgdzl.search.service.SearchItemService&methods=importAllItems&pid=3660&side=provider&timeout=60000&timestamp=1541055511739, com.mmmgdzl.content.service.ContentService=empty://192.168.25.1:20881/com.mmmgdzl.content.service.ContentService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.mmmgdzl.content.service.ContentService&methods=getContentListByCid,addContent&pid=29284&side=provider&timeout=60000&timestamp=1541262519193, com.mmmgdzl.search.service.SearchService=empty://192.168.25.1/com.mmmgdzl.search.service.SearchService?application=e3-portal-web&category=configurators&dubbo=2.5.3&interface=com.mmmgdzl.search.service.SearchService&methods=search&pid=22148&revision=1.0-SNAPSHOT&side=consumer&timestamp=1541262125708 empty://192.168.25.1/com.mmmgdzl.search.service.SearchService?application=e3-portal-web&category=routers&dubbo=2.5.3&interface=com.mmmgdzl.search.service.SearchService&methods=search&pid=22148&revision=1.0-SNAPSHOT&side=consumer&timestamp=1541262125708 empty://192.168.25.1/com.mmmgdzl.search.service.SearchService?application=e3-portal-web&category=providers&dubbo=2.5.3&interface=com.mmmgdzl.search.service.SearchService&methods=search&pid=22148&revision=1.0-SNAPSHOT&side=consumer&timestamp=1541262125708, com.mmmgdzl.service.ItemCatService=empty://192.168.25.1/com.mmmgdzl.service.ItemCatService?application=e3-manager-web&category=configurators&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemCatService&methods=getItemCatList&pid=29676&revision=1.0-SNAPSHOT&side=consumer&timestamp=1541262351916 empty://192.168.25.1/com.mmmgdzl.service.ItemCatService?application=e3-manager-web&category=routers&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemCatService&methods=getItemCatList&pid=29676&revision=1.0-SNAPSHOT&side=consumer&timestamp=1541262351916 empty://192.168.25.1/com.mmmgdzl.service.ItemCatService?application=e3-manager-web&category=providers&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemCatService&methods=getItemCatList&pid=29676&revision=1.0-SNAPSHOT&side=consumer&timestamp=1541262351916}, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 00:28:42,367 method:org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:64)
+Starting ZkClient event thread.
+
+
+[INFO ] 2018-11-04 00:28:51,374 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:zookeeper.version=3.4.7-1713338, built on 11/09/2015 04:32 GMT
+
+
+[INFO ] 2018-11-04 00:28:51,376 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:host.name=PC-20180509LBAV
+
+
+[INFO ] 2018-11-04 00:28:51,377 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.version=1.8.0_171
+
+
+[INFO ] 2018-11-04 00:28:51,378 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.vendor=Oracle Corporation
+
+
+[INFO ] 2018-11-04 00:28:51,378 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.home=F:\JAVA-JDKJRE\jdk1.8.0_171\jre
+
+
+[INFO ] 2018-11-04 00:28:51,378 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.class.path=F:\maven\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar;F:\ideaIU\IntelliJ IDEA 2018.2.4\lib\idea_rt.jar
+
+
+[INFO ] 2018-11-04 00:28:51,378 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.library.path=F:\JAVA-JDKJRE\jdk1.8.0_171\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;F:\Orical\product\11.2.0\dbhome_1\bin;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;F:\OpenCV\opencv\build\x64\vc15\bin;F:\SVN\VisualSVN Server\bin;F:\SVN\TortoiseSVN\bin;F:\Git\cmd;F:\GitExtensions\;F:\maven\apache-maven-3.3.9\bin;F:\JAVA-JDKJRE\jdk1.8.0_171\bin;C:\Program Files\MySQL\MySQL Server 5.6\bin;F:\PHPStudy\PHPTutorial\Apache\bin;"C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps";;F:\远程访问工具;.
+
+
+[INFO ] 2018-11-04 00:28:51,379 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
+
+
+[INFO ] 2018-11-04 00:28:51,379 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.compiler=<NA>
+
+
+[INFO ] 2018-11-04 00:28:51,380 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.name=Windows 10
+
+
+[INFO ] 2018-11-04 00:28:51,380 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.arch=amd64
+
+
+[INFO ] 2018-11-04 00:28:51,381 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.version=10.0
+
+
+[INFO ] 2018-11-04 00:28:51,381 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.name=mmmgdzl
+
+
+[INFO ] 2018-11-04 00:28:51,381 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.home=C:\Users\Administrator
+
+
+[INFO ] 2018-11-04 00:28:51,381 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.dir=F:\IWork-ideaIU\E3\e3parent\e3-manager
+
+
+[INFO ] 2018-11-04 00:28:51,383 method:org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:438)
+Initiating client connection, connectString=192.168.25.128:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@4224856c
+
+
+[INFO ] 2018-11-04 00:28:51,424 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.25.128/192.168.25.128:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-11-04 00:28:51,426 method:org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:876)
+Socket connection established to 192.168.25.128/192.168.25.128:2181, initiating session
+
+
+[INFO ] 2018-11-04 00:28:51,437 method:org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1299)
+Session establishment complete on server 192.168.25.128/192.168.25.128:2181, sessionid = 0x166da4b0db1000a, negotiated timeout = 30000
+
+
+[INFO ] 2018-11-04 00:28:51,439 method:org.I0Itec.zkclient.ZkClient.processStateChanged(ZkClient.java:449)
+zookeeper state changed (SyncConnected)
+
+
+[INFO ] 2018-11-04 00:28:51,445 method:com.alibaba.dubbo.registry.support.AbstractRegistry.register(AbstractRegistry.java:302)
+ [DUBBO] Register: dubbo://192.168.25.1:20880/com.mmmgdzl.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemService&methods=addItem,getItemList,getItemById&pid=25676&side=provider&timeout=60000&timestamp=1541262521194, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 00:28:51,481 method:com.alibaba.dubbo.registry.support.AbstractRegistry.subscribe(AbstractRegistry.java:325)
+ [DUBBO] Subscribe: provider://192.168.25.1:20880/com.mmmgdzl.service.ItemService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemService&methods=addItem,getItemList,getItemById&pid=25676&side=provider&timeout=60000&timestamp=1541262521194, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 00:28:51,502 method:com.alibaba.dubbo.registry.support.AbstractRegistry.notify(AbstractRegistry.java:422)
+ [DUBBO] Notify urls for subscribe url provider://192.168.25.1:20880/com.mmmgdzl.service.ItemService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemService&methods=addItem,getItemList,getItemById&pid=25676&side=provider&timeout=60000&timestamp=1541262521194, urls: [empty://192.168.25.1:20880/com.mmmgdzl.service.ItemService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemService&methods=addItem,getItemList,getItemById&pid=25676&side=provider&timeout=60000&timestamp=1541262521194], dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 00:28:51,546 method:com.alibaba.dubbo.config.spring.ServiceBean.onApplicationEvent(ServiceBean.java:107)
+ [DUBBO] The service ready on spring started. service: com.mmmgdzl.service.ItemCatService, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 00:28:51,559 method:com.alibaba.dubbo.config.ServiceConfig.exportLocal(ServiceConfig.java:510)
+ [DUBBO] Export dubbo service com.mmmgdzl.service.ItemCatService to local registry, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 00:28:51,559 method:com.alibaba.dubbo.config.ServiceConfig.doExportUrlsFor1Protocol(ServiceConfig.java:470)
+ [DUBBO] Export dubbo service com.mmmgdzl.service.ItemCatService to url dubbo://192.168.25.1:20880/com.mmmgdzl.service.ItemCatService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemCatService&methods=getItemCatList&pid=25676&side=provider&timeout=60000&timestamp=1541262531552, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 00:28:51,560 method:com.alibaba.dubbo.config.ServiceConfig.doExportUrlsFor1Protocol(ServiceConfig.java:481)
+ [DUBBO] Register dubbo service com.mmmgdzl.service.ItemCatService url dubbo://192.168.25.1:20880/com.mmmgdzl.service.ItemCatService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemCatService&methods=getItemCatList&pid=25676&side=provider&timeout=60000&timestamp=1541262531552 to registry registry://192.168.25.128:2181/com.alibaba.dubbo.registry.RegistryService?application=e3-manager&dubbo=2.5.3&pid=25676&registry=zookeeper&timestamp=1541262531550, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 00:28:51,560 method:com.alibaba.dubbo.registry.support.AbstractRegistry.register(AbstractRegistry.java:302)
+ [DUBBO] Register: dubbo://192.168.25.1:20880/com.mmmgdzl.service.ItemCatService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemCatService&methods=getItemCatList&pid=25676&side=provider&timeout=60000&timestamp=1541262531552, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 00:28:51,577 method:com.alibaba.dubbo.registry.support.AbstractRegistry.subscribe(AbstractRegistry.java:325)
+ [DUBBO] Subscribe: provider://192.168.25.1:20880/com.mmmgdzl.service.ItemCatService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemCatService&methods=getItemCatList&pid=25676&side=provider&timeout=60000&timestamp=1541262531552, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 00:28:51,587 method:com.alibaba.dubbo.registry.support.AbstractRegistry.notify(AbstractRegistry.java:422)
+ [DUBBO] Notify urls for subscribe url provider://192.168.25.1:20880/com.mmmgdzl.service.ItemCatService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemCatService&methods=getItemCatList&pid=25676&side=provider&timeout=60000&timestamp=1541262531552, urls: [empty://192.168.25.1:20880/com.mmmgdzl.service.ItemCatService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemCatService&methods=getItemCatList&pid=25676&side=provider&timeout=60000&timestamp=1541262531552], dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 00:28:51,594 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:347)
+Root WebApplicationContext: initialization completed in 22419 ms
+
+
+[WARN ] 2018-11-04 00:28:53,586 method:com.alibaba.dubbo.remoting.transport.AbstractServer.disconnected(AbstractServer.java:197)
+ [DUBBO] All clients has discontected from /192.168.25.1:20880. You can graceful shutdown now., dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 00:28:53,632 method:com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol$1.disconnected(DubboProtocol.java:130)
+ [DUBBO] disconected from /192.168.25.1:60468,url:dubbo://192.168.25.1:20880/com.mmmgdzl.service.ItemService?anyhost=true&application=e3-manager&channel.readonly.sent=true&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.mmmgdzl.service.ItemService&methods=addItem,getItemList,getItemById&pid=25676&side=provider&timeout=60000&timestamp=1541262521194, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 00:30:35,592 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:655)
+{dataSource-1} inited
+
+
+[INFO ] 2018-11-04 00:31:08,572 method:org.springframework.jms.connection.SingleConnectionFactory.initConnection(SingleConnectionFactory.java:311)
+Established shared JMS Connection: ActiveMQConnection {id=ID:PC-20180509LBAV-58232-1541262668456-1:1,clientId=null,started=false}
+
+
+[INFO ] 2018-11-04 00:51:12,727 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:307)
+Root WebApplicationContext: initialization started
+
+
+[INFO ] 2018-11-04 00:51:13,247 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578)
+Refreshing Root WebApplicationContext: startup date [Sun Nov 04 00:51:13 CST 2018]; root of context hierarchy
+
+
+[INFO ] 2018-11-04 00:51:13,365 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [F:\IWork-ideaIU\E3\e3parent\e3-manager\e3-manager-service\target\classes\spring\applicationContext-activemq.xml]
+
+
+[INFO ] 2018-11-04 00:51:13,777 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [F:\IWork-ideaIU\E3\e3parent\e3-manager\e3-manager-service\target\classes\spring\applicationContext-dao.xml]
+
+
+[INFO ] 2018-11-04 00:51:13,903 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [F:\IWork-ideaIU\E3\e3parent\e3-manager\e3-manager-service\target\classes\spring\applicationContext-service.xml]
+
+
+[INFO ] 2018-11-04 00:51:14,106 method:
+using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+
+
+[INFO ] 2018-11-04 00:51:14,164 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [F:\IWork-ideaIU\E3\e3parent\e3-manager\e3-manager-service\target\classes\spring\applicationContext-trans.xml]
+
+
+[INFO ] 2018-11-04 00:51:14,558 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from class path resource [conf/db.properties]
+
+
+[INFO ] 2018-11-04 00:51:14,572 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2018-11-04 00:51:17,518 method:com.alibaba.dubbo.config.spring.ServiceBean.onApplicationEvent(ServiceBean.java:107)
+ [DUBBO] The service ready on spring started. service: com.mmmgdzl.service.ItemService, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 00:51:17,804 method:com.alibaba.dubbo.config.ServiceConfig.exportLocal(ServiceConfig.java:510)
+ [DUBBO] Export dubbo service com.mmmgdzl.service.ItemService to local registry, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 00:51:17,809 method:com.alibaba.dubbo.config.ServiceConfig.doExportUrlsFor1Protocol(ServiceConfig.java:470)
+ [DUBBO] Export dubbo service com.mmmgdzl.service.ItemService to url dubbo://192.168.25.1:20880/com.mmmgdzl.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemService&methods=addItem,getItemList,getItemById&pid=27544&side=provider&timeout=60000&timestamp=1541263877595, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 00:51:17,816 method:com.alibaba.dubbo.config.ServiceConfig.doExportUrlsFor1Protocol(ServiceConfig.java:481)
+ [DUBBO] Register dubbo service com.mmmgdzl.service.ItemService url dubbo://192.168.25.1:20880/com.mmmgdzl.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemService&methods=addItem,getItemList,getItemById&pid=27544&side=provider&timeout=60000&timestamp=1541263877595 to registry registry://192.168.25.128:2181/com.alibaba.dubbo.registry.RegistryService?application=e3-manager&dubbo=2.5.3&pid=27544&registry=zookeeper&timestamp=1541263877555, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 00:51:18,429 method:com.alibaba.dubbo.remoting.transport.AbstractServer.<init>(AbstractServer.java:69)
+ [DUBBO] Start NettyServer bind /0.0.0.0:20880, export /192.168.25.1:20880, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 00:51:18,517 method:com.alibaba.dubbo.registry.support.AbstractRegistry.loadProperties(AbstractRegistry.java:232)
+ [DUBBO] Load registry store file C:\Users\Administrator\.dubbo\dubbo-registry-192.168.25.128.cache, data: {com.mmmgdzl.content.service.ContentCategoryService=empty://192.168.25.1/com.mmmgdzl.content.service.ContentCategoryService?application=e3-manager-web&category=configurators&dubbo=2.5.3&interface=com.mmmgdzl.content.service.ContentCategoryService&methods=addNode,update,getContentCatList,delete&pid=20644&revision=1.0-SNAPSHOT&side=consumer&timestamp=1541262604610 empty://192.168.25.1/com.mmmgdzl.content.service.ContentCategoryService?application=e3-manager-web&category=routers&dubbo=2.5.3&interface=com.mmmgdzl.content.service.ContentCategoryService&methods=addNode,update,getContentCatList,delete&pid=20644&revision=1.0-SNAPSHOT&side=consumer&timestamp=1541262604610 dubbo://192.168.25.1:20881/com.mmmgdzl.content.service.ContentCategoryService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.mmmgdzl.content.service.ContentCategoryService&methods=addNode,update,getContentCatList,delete&pid=29284&side=provider&timeout=60000&timestamp=1541262489847, com.mmmgdzl.service.ItemService=empty://192.168.25.1/com.mmmgdzl.service.ItemService?application=e3-manager-web&category=configurators&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemService&methods=addItem,getItemList,getItemById&pid=20644&revision=1.0-SNAPSHOT&side=consumer&timestamp=1541262604826 empty://192.168.25.1/com.mmmgdzl.service.ItemService?application=e3-manager-web&category=routers&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemService&methods=addItem,getItemList,getItemById&pid=20644&revision=1.0-SNAPSHOT&side=consumer&timestamp=1541262604826 empty://192.168.25.1/com.mmmgdzl.service.ItemService?application=e3-manager-web&category=providers&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemService&methods=addItem,getItemList,getItemById&pid=20644&revision=1.0-SNAPSHOT&side=consumer&timestamp=1541262604826, com.mmmgdzl.search.service.SearchItemService=empty://192.168.25.1/com.mmmgdzl.search.service.SearchItemService?application=e3-manager-web&category=configurators&dubbo=2.5.3&interface=com.mmmgdzl.search.service.SearchItemService&methods=importAllItems&pid=20644&revision=1.0-SNAPSHOT&side=consumer&timestamp=1541262604893 empty://192.168.25.1/com.mmmgdzl.search.service.SearchItemService?application=e3-manager-web&category=routers&dubbo=2.5.3&interface=com.mmmgdzl.search.service.SearchItemService&methods=importAllItems&pid=20644&revision=1.0-SNAPSHOT&side=consumer&timestamp=1541262604893 dubbo://192.168.25.1:20882/com.mmmgdzl.search.service.SearchItemService?anyhost=true&application=e3-search&dubbo=2.5.3&interface=com.mmmgdzl.search.service.SearchItemService&methods=importAllItems&pid=30652&side=provider&timeout=60000&timestamp=1541263676124, com.mmmgdzl.content.service.ContentService=empty://192.168.25.1/com.mmmgdzl.content.service.ContentService?application=e3-manager-web&category=configurators&dubbo=2.5.3&interface=com.mmmgdzl.content.service.ContentService&methods=getContentListByCid,addContent&pid=20644&revision=1.0-SNAPSHOT&side=consumer&timestamp=1541262604689 empty://192.168.25.1/com.mmmgdzl.content.service.ContentService?application=e3-manager-web&category=routers&dubbo=2.5.3&interface=com.mmmgdzl.content.service.ContentService&methods=getContentListByCid,addContent&pid=20644&revision=1.0-SNAPSHOT&side=consumer&timestamp=1541262604689 dubbo://192.168.25.1:20881/com.mmmgdzl.content.service.ContentService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.mmmgdzl.content.service.ContentService&methods=getContentListByCid,addContent&pid=29284&side=provider&timeout=60000&timestamp=1541262519193, com.mmmgdzl.search.service.SearchService=empty://192.168.25.1/com.mmmgdzl.search.service.SearchService?application=e3-portal-web&category=configurators&dubbo=2.5.3&interface=com.mmmgdzl.search.service.SearchService&methods=search&pid=28752&revision=1.0-SNAPSHOT&side=consumer&timestamp=1541262512514 empty://192.168.25.1/com.mmmgdzl.search.service.SearchService?application=e3-portal-web&category=routers&dubbo=2.5.3&interface=com.mmmgdzl.search.service.SearchService&methods=search&pid=28752&revision=1.0-SNAPSHOT&side=consumer&timestamp=1541262512514 empty://192.168.25.1/com.mmmgdzl.search.service.SearchService?application=e3-portal-web&category=providers&dubbo=2.5.3&interface=com.mmmgdzl.search.service.SearchService&methods=search&pid=28752&revision=1.0-SNAPSHOT&side=consumer&timestamp=1541262512514, com.mmmgdzl.service.ItemCatService=empty://192.168.25.1/com.mmmgdzl.service.ItemCatService?application=e3-manager-web&category=configurators&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemCatService&methods=getItemCatList&pid=20644&revision=1.0-SNAPSHOT&side=consumer&timestamp=1541262604750 empty://192.168.25.1/com.mmmgdzl.service.ItemCatService?application=e3-manager-web&category=routers&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemCatService&methods=getItemCatList&pid=20644&revision=1.0-SNAPSHOT&side=consumer&timestamp=1541262604750 empty://192.168.25.1/com.mmmgdzl.service.ItemCatService?application=e3-manager-web&category=providers&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemCatService&methods=getItemCatList&pid=20644&revision=1.0-SNAPSHOT&side=consumer&timestamp=1541262604750}, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 00:51:18,564 method:org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:64)
+Starting ZkClient event thread.
+
+
+[INFO ] 2018-11-04 00:51:27,567 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:zookeeper.version=3.4.7-1713338, built on 11/09/2015 04:32 GMT
+
+
+[INFO ] 2018-11-04 00:51:27,569 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:host.name=PC-20180509LBAV
+
+
+[INFO ] 2018-11-04 00:51:27,569 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.version=1.8.0_171
+
+
+[INFO ] 2018-11-04 00:51:27,569 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.vendor=Oracle Corporation
+
+
+[INFO ] 2018-11-04 00:51:27,570 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.home=F:\JAVA-JDKJRE\jdk1.8.0_171\jre
+
+
+[INFO ] 2018-11-04 00:51:27,570 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.class.path=F:\maven\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar;F:\ideaIU\IntelliJ IDEA 2018.2.4\lib\idea_rt.jar
+
+
+[INFO ] 2018-11-04 00:51:27,570 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.library.path=F:\JAVA-JDKJRE\jdk1.8.0_171\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;F:\Orical\product\11.2.0\dbhome_1\bin;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;F:\OpenCV\opencv\build\x64\vc15\bin;F:\SVN\VisualSVN Server\bin;F:\SVN\TortoiseSVN\bin;F:\Git\cmd;F:\GitExtensions\;F:\maven\apache-maven-3.3.9\bin;F:\JAVA-JDKJRE\jdk1.8.0_171\bin;C:\Program Files\MySQL\MySQL Server 5.6\bin;F:\PHPStudy\PHPTutorial\Apache\bin;"C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps";;F:\远程访问工具;.
+
+
+[INFO ] 2018-11-04 00:51:27,570 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
+
+
+[INFO ] 2018-11-04 00:51:27,570 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.compiler=<NA>
+
+
+[INFO ] 2018-11-04 00:51:27,570 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.name=Windows 10
+
+
+[INFO ] 2018-11-04 00:51:27,571 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.arch=amd64
+
+
+[INFO ] 2018-11-04 00:51:27,571 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.version=10.0
+
+
+[INFO ] 2018-11-04 00:51:27,571 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.name=mmmgdzl
+
+
+[INFO ] 2018-11-04 00:51:27,572 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.home=C:\Users\Administrator
+
+
+[INFO ] 2018-11-04 00:51:27,572 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.dir=F:\IWork-ideaIU\E3\e3parent\e3-manager
+
+
+[INFO ] 2018-11-04 00:51:27,573 method:org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:438)
+Initiating client connection, connectString=192.168.25.128:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@377c0df4
+
+
+[INFO ] 2018-11-04 00:51:27,609 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.25.128/192.168.25.128:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-11-04 00:51:27,611 method:org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:876)
+Socket connection established to 192.168.25.128/192.168.25.128:2181, initiating session
+
+
+[INFO ] 2018-11-04 00:51:27,636 method:org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1299)
+Session establishment complete on server 192.168.25.128/192.168.25.128:2181, sessionid = 0x166da4b0db10010, negotiated timeout = 30000
+
+
+[INFO ] 2018-11-04 00:51:27,638 method:org.I0Itec.zkclient.ZkClient.processStateChanged(ZkClient.java:449)
+zookeeper state changed (SyncConnected)
+
+
+[INFO ] 2018-11-04 00:51:27,641 method:com.alibaba.dubbo.registry.support.AbstractRegistry.register(AbstractRegistry.java:302)
+ [DUBBO] Register: dubbo://192.168.25.1:20880/com.mmmgdzl.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemService&methods=addItem,getItemList,getItemById&pid=27544&side=provider&timeout=60000&timestamp=1541263877595, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 00:51:27,681 method:com.alibaba.dubbo.registry.support.AbstractRegistry.subscribe(AbstractRegistry.java:325)
+ [DUBBO] Subscribe: provider://192.168.25.1:20880/com.mmmgdzl.service.ItemService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemService&methods=addItem,getItemList,getItemById&pid=27544&side=provider&timeout=60000&timestamp=1541263877595, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 00:51:27,732 method:com.alibaba.dubbo.registry.support.AbstractRegistry.notify(AbstractRegistry.java:422)
+ [DUBBO] Notify urls for subscribe url provider://192.168.25.1:20880/com.mmmgdzl.service.ItemService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemService&methods=addItem,getItemList,getItemById&pid=27544&side=provider&timeout=60000&timestamp=1541263877595, urls: [empty://192.168.25.1:20880/com.mmmgdzl.service.ItemService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemService&methods=addItem,getItemList,getItemById&pid=27544&side=provider&timeout=60000&timestamp=1541263877595], dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 00:51:27,804 method:com.alibaba.dubbo.config.spring.ServiceBean.onApplicationEvent(ServiceBean.java:107)
+ [DUBBO] The service ready on spring started. service: com.mmmgdzl.service.ItemCatService, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 00:51:27,821 method:com.alibaba.dubbo.config.ServiceConfig.exportLocal(ServiceConfig.java:510)
+ [DUBBO] Export dubbo service com.mmmgdzl.service.ItemCatService to local registry, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 00:51:27,821 method:com.alibaba.dubbo.config.ServiceConfig.doExportUrlsFor1Protocol(ServiceConfig.java:470)
+ [DUBBO] Export dubbo service com.mmmgdzl.service.ItemCatService to url dubbo://192.168.25.1:20880/com.mmmgdzl.service.ItemCatService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemCatService&methods=getItemCatList&pid=27544&side=provider&timeout=60000&timestamp=1541263887810, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 00:51:27,821 method:com.alibaba.dubbo.config.ServiceConfig.doExportUrlsFor1Protocol(ServiceConfig.java:481)
+ [DUBBO] Register dubbo service com.mmmgdzl.service.ItemCatService url dubbo://192.168.25.1:20880/com.mmmgdzl.service.ItemCatService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemCatService&methods=getItemCatList&pid=27544&side=provider&timeout=60000&timestamp=1541263887810 to registry registry://192.168.25.128:2181/com.alibaba.dubbo.registry.RegistryService?application=e3-manager&dubbo=2.5.3&pid=27544&registry=zookeeper&timestamp=1541263887809, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 00:51:27,822 method:com.alibaba.dubbo.registry.support.AbstractRegistry.register(AbstractRegistry.java:302)
+ [DUBBO] Register: dubbo://192.168.25.1:20880/com.mmmgdzl.service.ItemCatService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemCatService&methods=getItemCatList&pid=27544&side=provider&timeout=60000&timestamp=1541263887810, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 00:51:27,835 method:com.alibaba.dubbo.registry.support.AbstractRegistry.subscribe(AbstractRegistry.java:325)
+ [DUBBO] Subscribe: provider://192.168.25.1:20880/com.mmmgdzl.service.ItemCatService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemCatService&methods=getItemCatList&pid=27544&side=provider&timeout=60000&timestamp=1541263887810, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 00:51:27,849 method:com.alibaba.dubbo.registry.support.AbstractRegistry.notify(AbstractRegistry.java:422)
+ [DUBBO] Notify urls for subscribe url provider://192.168.25.1:20880/com.mmmgdzl.service.ItemCatService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemCatService&methods=getItemCatList&pid=27544&side=provider&timeout=60000&timestamp=1541263887810, urls: [empty://192.168.25.1:20880/com.mmmgdzl.service.ItemCatService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemCatService&methods=getItemCatList&pid=27544&side=provider&timeout=60000&timestamp=1541263887810], dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[WARN ] 2018-11-04 00:51:27,852 method:com.alibaba.dubbo.registry.support.AbstractRegistry.doSaveProperties(AbstractRegistry.java:221)
+ [DUBBO] Failed to save registry store file, cause: Can not lock the registry cache file C:\Users\Administrator\.dubbo\dubbo-registry-192.168.25.128.cache, ignore and retry later, maybe multi java process use the file, please config: dubbo.registry.file=xxx.properties, dubbo version: 2.5.3, current host: 127.0.0.1
+java.io.IOException: Can not lock the registry cache file C:\Users\Administrator\.dubbo\dubbo-registry-192.168.25.128.cache, ignore and retry later, maybe multi java process use the file, please config: dubbo.registry.file=xxx.properties
+	at com.alibaba.dubbo.registry.support.AbstractRegistry.doSaveProperties(AbstractRegistry.java:193)
+	at com.alibaba.dubbo.registry.support.AbstractRegistry$SaveProperties.run(AbstractRegistry.java:150)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[WARN ] 2018-11-04 00:51:27,886 method:com.alibaba.dubbo.registry.support.AbstractRegistry.doSaveProperties(AbstractRegistry.java:221)
+ [DUBBO] Failed to save registry store file, cause: Can not lock the registry cache file C:\Users\Administrator\.dubbo\dubbo-registry-192.168.25.128.cache, ignore and retry later, maybe multi java process use the file, please config: dubbo.registry.file=xxx.properties, dubbo version: 2.5.3, current host: 127.0.0.1
+java.io.IOException: Can not lock the registry cache file C:\Users\Administrator\.dubbo\dubbo-registry-192.168.25.128.cache, ignore and retry later, maybe multi java process use the file, please config: dubbo.registry.file=xxx.properties
+	at com.alibaba.dubbo.registry.support.AbstractRegistry.doSaveProperties(AbstractRegistry.java:193)
+	at com.alibaba.dubbo.registry.support.AbstractRegistry$SaveProperties.run(AbstractRegistry.java:150)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[WARN ] 2018-11-04 00:51:27,888 method:com.alibaba.dubbo.registry.support.AbstractRegistry.doSaveProperties(AbstractRegistry.java:221)
+ [DUBBO] Failed to save registry store file, cause: Can not lock the registry cache file C:\Users\Administrator\.dubbo\dubbo-registry-192.168.25.128.cache, ignore and retry later, maybe multi java process use the file, please config: dubbo.registry.file=xxx.properties, dubbo version: 2.5.3, current host: 127.0.0.1
+java.io.IOException: Can not lock the registry cache file C:\Users\Administrator\.dubbo\dubbo-registry-192.168.25.128.cache, ignore and retry later, maybe multi java process use the file, please config: dubbo.registry.file=xxx.properties
+	at com.alibaba.dubbo.registry.support.AbstractRegistry.doSaveProperties(AbstractRegistry.java:193)
+	at com.alibaba.dubbo.registry.support.AbstractRegistry$SaveProperties.run(AbstractRegistry.java:150)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[WARN ] 2018-11-04 00:51:27,890 method:com.alibaba.dubbo.registry.support.AbstractRegistry.doSaveProperties(AbstractRegistry.java:221)
+ [DUBBO] Failed to save registry store file, cause: Can not lock the registry cache file C:\Users\Administrator\.dubbo\dubbo-registry-192.168.25.128.cache, ignore and retry later, maybe multi java process use the file, please config: dubbo.registry.file=xxx.properties, dubbo version: 2.5.3, current host: 127.0.0.1
+java.io.IOException: Can not lock the registry cache file C:\Users\Administrator\.dubbo\dubbo-registry-192.168.25.128.cache, ignore and retry later, maybe multi java process use the file, please config: dubbo.registry.file=xxx.properties
+	at com.alibaba.dubbo.registry.support.AbstractRegistry.doSaveProperties(AbstractRegistry.java:193)
+	at com.alibaba.dubbo.registry.support.AbstractRegistry$SaveProperties.run(AbstractRegistry.java:150)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[WARN ] 2018-11-04 00:51:27,891 method:com.alibaba.dubbo.registry.support.AbstractRegistry.doSaveProperties(AbstractRegistry.java:221)
+ [DUBBO] Failed to save registry store file, cause: Can not lock the registry cache file C:\Users\Administrator\.dubbo\dubbo-registry-192.168.25.128.cache, ignore and retry later, maybe multi java process use the file, please config: dubbo.registry.file=xxx.properties, dubbo version: 2.5.3, current host: 127.0.0.1
+java.io.IOException: Can not lock the registry cache file C:\Users\Administrator\.dubbo\dubbo-registry-192.168.25.128.cache, ignore and retry later, maybe multi java process use the file, please config: dubbo.registry.file=xxx.properties
+	at com.alibaba.dubbo.registry.support.AbstractRegistry.doSaveProperties(AbstractRegistry.java:193)
+	at com.alibaba.dubbo.registry.support.AbstractRegistry$SaveProperties.run(AbstractRegistry.java:150)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[WARN ] 2018-11-04 00:51:27,893 method:com.alibaba.dubbo.registry.support.AbstractRegistry.doSaveProperties(AbstractRegistry.java:221)
+ [DUBBO] Failed to save registry store file, cause: Can not lock the registry cache file C:\Users\Administrator\.dubbo\dubbo-registry-192.168.25.128.cache, ignore and retry later, maybe multi java process use the file, please config: dubbo.registry.file=xxx.properties, dubbo version: 2.5.3, current host: 127.0.0.1
+java.io.IOException: Can not lock the registry cache file C:\Users\Administrator\.dubbo\dubbo-registry-192.168.25.128.cache, ignore and retry later, maybe multi java process use the file, please config: dubbo.registry.file=xxx.properties
+	at com.alibaba.dubbo.registry.support.AbstractRegistry.doSaveProperties(AbstractRegistry.java:193)
+	at com.alibaba.dubbo.registry.support.AbstractRegistry$SaveProperties.run(AbstractRegistry.java:150)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[WARN ] 2018-11-04 00:51:27,908 method:com.alibaba.dubbo.registry.support.AbstractRegistry.doSaveProperties(AbstractRegistry.java:221)
+ [DUBBO] Failed to save registry store file, cause: Can not lock the registry cache file C:\Users\Administrator\.dubbo\dubbo-registry-192.168.25.128.cache, ignore and retry later, maybe multi java process use the file, please config: dubbo.registry.file=xxx.properties, dubbo version: 2.5.3, current host: 127.0.0.1
+java.io.IOException: Can not lock the registry cache file C:\Users\Administrator\.dubbo\dubbo-registry-192.168.25.128.cache, ignore and retry later, maybe multi java process use the file, please config: dubbo.registry.file=xxx.properties
+	at com.alibaba.dubbo.registry.support.AbstractRegistry.doSaveProperties(AbstractRegistry.java:193)
+	at com.alibaba.dubbo.registry.support.AbstractRegistry$SaveProperties.run(AbstractRegistry.java:150)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[WARN ] 2018-11-04 00:51:27,909 method:com.alibaba.dubbo.registry.support.AbstractRegistry.doSaveProperties(AbstractRegistry.java:221)
+ [DUBBO] Failed to save registry store file, cause: Can not lock the registry cache file C:\Users\Administrator\.dubbo\dubbo-registry-192.168.25.128.cache, ignore and retry later, maybe multi java process use the file, please config: dubbo.registry.file=xxx.properties, dubbo version: 2.5.3, current host: 127.0.0.1
+java.io.IOException: Can not lock the registry cache file C:\Users\Administrator\.dubbo\dubbo-registry-192.168.25.128.cache, ignore and retry later, maybe multi java process use the file, please config: dubbo.registry.file=xxx.properties
+	at com.alibaba.dubbo.registry.support.AbstractRegistry.doSaveProperties(AbstractRegistry.java:193)
+	at com.alibaba.dubbo.registry.support.AbstractRegistry$SaveProperties.run(AbstractRegistry.java:150)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[WARN ] 2018-11-04 00:51:27,911 method:com.alibaba.dubbo.registry.support.AbstractRegistry.doSaveProperties(AbstractRegistry.java:221)
+ [DUBBO] Failed to save registry store file, cause: Can not lock the registry cache file C:\Users\Administrator\.dubbo\dubbo-registry-192.168.25.128.cache, ignore and retry later, maybe multi java process use the file, please config: dubbo.registry.file=xxx.properties, dubbo version: 2.5.3, current host: 127.0.0.1
+java.io.IOException: Can not lock the registry cache file C:\Users\Administrator\.dubbo\dubbo-registry-192.168.25.128.cache, ignore and retry later, maybe multi java process use the file, please config: dubbo.registry.file=xxx.properties
+	at com.alibaba.dubbo.registry.support.AbstractRegistry.doSaveProperties(AbstractRegistry.java:193)
+	at com.alibaba.dubbo.registry.support.AbstractRegistry$SaveProperties.run(AbstractRegistry.java:150)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[WARN ] 2018-11-04 00:51:27,916 method:com.alibaba.dubbo.registry.support.AbstractRegistry.doSaveProperties(AbstractRegistry.java:221)
+ [DUBBO] Failed to save registry store file, cause: Can not lock the registry cache file C:\Users\Administrator\.dubbo\dubbo-registry-192.168.25.128.cache, ignore and retry later, maybe multi java process use the file, please config: dubbo.registry.file=xxx.properties, dubbo version: 2.5.3, current host: 127.0.0.1
+java.io.IOException: Can not lock the registry cache file C:\Users\Administrator\.dubbo\dubbo-registry-192.168.25.128.cache, ignore and retry later, maybe multi java process use the file, please config: dubbo.registry.file=xxx.properties
+	at com.alibaba.dubbo.registry.support.AbstractRegistry.doSaveProperties(AbstractRegistry.java:193)
+	at com.alibaba.dubbo.registry.support.AbstractRegistry$SaveProperties.run(AbstractRegistry.java:150)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[WARN ] 2018-11-04 00:51:27,919 method:com.alibaba.dubbo.registry.support.AbstractRegistry.doSaveProperties(AbstractRegistry.java:221)
+ [DUBBO] Failed to save registry store file, cause: Can not lock the registry cache file C:\Users\Administrator\.dubbo\dubbo-registry-192.168.25.128.cache, ignore and retry later, maybe multi java process use the file, please config: dubbo.registry.file=xxx.properties, dubbo version: 2.5.3, current host: 127.0.0.1
+java.io.IOException: Can not lock the registry cache file C:\Users\Administrator\.dubbo\dubbo-registry-192.168.25.128.cache, ignore and retry later, maybe multi java process use the file, please config: dubbo.registry.file=xxx.properties
+	at com.alibaba.dubbo.registry.support.AbstractRegistry.doSaveProperties(AbstractRegistry.java:193)
+	at com.alibaba.dubbo.registry.support.AbstractRegistry$SaveProperties.run(AbstractRegistry.java:150)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[WARN ] 2018-11-04 00:51:27,929 method:com.alibaba.dubbo.registry.support.AbstractRegistry.doSaveProperties(AbstractRegistry.java:221)
+ [DUBBO] Failed to save registry store file, cause: Can not lock the registry cache file C:\Users\Administrator\.dubbo\dubbo-registry-192.168.25.128.cache, ignore and retry later, maybe multi java process use the file, please config: dubbo.registry.file=xxx.properties, dubbo version: 2.5.3, current host: 127.0.0.1
+java.io.IOException: Can not lock the registry cache file C:\Users\Administrator\.dubbo\dubbo-registry-192.168.25.128.cache, ignore and retry later, maybe multi java process use the file, please config: dubbo.registry.file=xxx.properties
+	at com.alibaba.dubbo.registry.support.AbstractRegistry.doSaveProperties(AbstractRegistry.java:193)
+	at com.alibaba.dubbo.registry.support.AbstractRegistry$SaveProperties.run(AbstractRegistry.java:150)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[INFO ] 2018-11-04 00:51:27,855 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:347)
+Root WebApplicationContext: initialization completed in 15124 ms
+
+
+[WARN ] 2018-11-04 00:51:27,932 method:com.alibaba.dubbo.registry.support.AbstractRegistry.doSaveProperties(AbstractRegistry.java:221)
+ [DUBBO] Failed to save registry store file, cause: Can not lock the registry cache file C:\Users\Administrator\.dubbo\dubbo-registry-192.168.25.128.cache, ignore and retry later, maybe multi java process use the file, please config: dubbo.registry.file=xxx.properties, dubbo version: 2.5.3, current host: 127.0.0.1
+java.io.IOException: Can not lock the registry cache file C:\Users\Administrator\.dubbo\dubbo-registry-192.168.25.128.cache, ignore and retry later, maybe multi java process use the file, please config: dubbo.registry.file=xxx.properties
+	at com.alibaba.dubbo.registry.support.AbstractRegistry.doSaveProperties(AbstractRegistry.java:193)
+	at com.alibaba.dubbo.registry.support.AbstractRegistry$SaveProperties.run(AbstractRegistry.java:150)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[WARN ] 2018-11-04 00:51:27,934 method:com.alibaba.dubbo.registry.support.AbstractRegistry.doSaveProperties(AbstractRegistry.java:221)
+ [DUBBO] Failed to save registry store file, cause: Can not lock the registry cache file C:\Users\Administrator\.dubbo\dubbo-registry-192.168.25.128.cache, ignore and retry later, maybe multi java process use the file, please config: dubbo.registry.file=xxx.properties, dubbo version: 2.5.3, current host: 127.0.0.1
+java.io.IOException: Can not lock the registry cache file C:\Users\Administrator\.dubbo\dubbo-registry-192.168.25.128.cache, ignore and retry later, maybe multi java process use the file, please config: dubbo.registry.file=xxx.properties
+	at com.alibaba.dubbo.registry.support.AbstractRegistry.doSaveProperties(AbstractRegistry.java:193)
+	at com.alibaba.dubbo.registry.support.AbstractRegistry$SaveProperties.run(AbstractRegistry.java:150)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[WARN ] 2018-11-04 00:51:27,935 method:com.alibaba.dubbo.registry.support.AbstractRegistry.doSaveProperties(AbstractRegistry.java:221)
+ [DUBBO] Failed to save registry store file, cause: Can not lock the registry cache file C:\Users\Administrator\.dubbo\dubbo-registry-192.168.25.128.cache, ignore and retry later, maybe multi java process use the file, please config: dubbo.registry.file=xxx.properties, dubbo version: 2.5.3, current host: 127.0.0.1
+java.io.IOException: Can not lock the registry cache file C:\Users\Administrator\.dubbo\dubbo-registry-192.168.25.128.cache, ignore and retry later, maybe multi java process use the file, please config: dubbo.registry.file=xxx.properties
+	at com.alibaba.dubbo.registry.support.AbstractRegistry.doSaveProperties(AbstractRegistry.java:193)
+	at com.alibaba.dubbo.registry.support.AbstractRegistry$SaveProperties.run(AbstractRegistry.java:150)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[WARN ] 2018-11-04 00:51:27,937 method:com.alibaba.dubbo.registry.support.AbstractRegistry.doSaveProperties(AbstractRegistry.java:221)
+ [DUBBO] Failed to save registry store file, cause: Can not lock the registry cache file C:\Users\Administrator\.dubbo\dubbo-registry-192.168.25.128.cache, ignore and retry later, maybe multi java process use the file, please config: dubbo.registry.file=xxx.properties, dubbo version: 2.5.3, current host: 127.0.0.1
+java.io.IOException: Can not lock the registry cache file C:\Users\Administrator\.dubbo\dubbo-registry-192.168.25.128.cache, ignore and retry later, maybe multi java process use the file, please config: dubbo.registry.file=xxx.properties
+	at com.alibaba.dubbo.registry.support.AbstractRegistry.doSaveProperties(AbstractRegistry.java:193)
+	at com.alibaba.dubbo.registry.support.AbstractRegistry$SaveProperties.run(AbstractRegistry.java:150)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[WARN ] 2018-11-04 00:51:27,939 method:com.alibaba.dubbo.registry.support.AbstractRegistry.doSaveProperties(AbstractRegistry.java:221)
+ [DUBBO] Failed to save registry store file, cause: Can not lock the registry cache file C:\Users\Administrator\.dubbo\dubbo-registry-192.168.25.128.cache, ignore and retry later, maybe multi java process use the file, please config: dubbo.registry.file=xxx.properties, dubbo version: 2.5.3, current host: 127.0.0.1
+java.io.IOException: Can not lock the registry cache file C:\Users\Administrator\.dubbo\dubbo-registry-192.168.25.128.cache, ignore and retry later, maybe multi java process use the file, please config: dubbo.registry.file=xxx.properties
+	at com.alibaba.dubbo.registry.support.AbstractRegistry.doSaveProperties(AbstractRegistry.java:193)
+	at com.alibaba.dubbo.registry.support.AbstractRegistry$SaveProperties.run(AbstractRegistry.java:150)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[WARN ] 2018-11-04 00:51:27,940 method:com.alibaba.dubbo.registry.support.AbstractRegistry.doSaveProperties(AbstractRegistry.java:221)
+ [DUBBO] Failed to save registry store file, cause: Can not lock the registry cache file C:\Users\Administrator\.dubbo\dubbo-registry-192.168.25.128.cache, ignore and retry later, maybe multi java process use the file, please config: dubbo.registry.file=xxx.properties, dubbo version: 2.5.3, current host: 127.0.0.1
+java.io.IOException: Can not lock the registry cache file C:\Users\Administrator\.dubbo\dubbo-registry-192.168.25.128.cache, ignore and retry later, maybe multi java process use the file, please config: dubbo.registry.file=xxx.properties
+	at com.alibaba.dubbo.registry.support.AbstractRegistry.doSaveProperties(AbstractRegistry.java:193)
+	at com.alibaba.dubbo.registry.support.AbstractRegistry$SaveProperties.run(AbstractRegistry.java:150)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[WARN ] 2018-11-04 00:51:27,944 method:com.alibaba.dubbo.registry.support.AbstractRegistry.doSaveProperties(AbstractRegistry.java:221)
+ [DUBBO] Failed to save registry store file, cause: Can not lock the registry cache file C:\Users\Administrator\.dubbo\dubbo-registry-192.168.25.128.cache, ignore and retry later, maybe multi java process use the file, please config: dubbo.registry.file=xxx.properties, dubbo version: 2.5.3, current host: 127.0.0.1
+java.io.IOException: Can not lock the registry cache file C:\Users\Administrator\.dubbo\dubbo-registry-192.168.25.128.cache, ignore and retry later, maybe multi java process use the file, please config: dubbo.registry.file=xxx.properties
+	at com.alibaba.dubbo.registry.support.AbstractRegistry.doSaveProperties(AbstractRegistry.java:193)
+	at com.alibaba.dubbo.registry.support.AbstractRegistry$SaveProperties.run(AbstractRegistry.java:150)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+[INFO ] 2018-11-04 00:51:58,174 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:655)
+{dataSource-1} inited
+
+
+[INFO ] 2018-11-04 00:51:58,881 method:org.springframework.jms.connection.SingleConnectionFactory.initConnection(SingleConnectionFactory.java:311)
+Established shared JMS Connection: ActiveMQConnection {id=ID:PC-20180509LBAV-49692-1541263918764-1:1,clientId=null,started=false}

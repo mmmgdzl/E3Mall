@@ -12,8 +12,15 @@ import com.mmmgdzl.pojo.TbItemDesc;
 import com.mmmgdzl.pojo.TbItemExample;
 import com.mmmgdzl.service.ItemService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jms.core.JmsTemplate;
+import org.springframework.jms.core.MessageCreator;
 import org.springframework.stereotype.Service;
 
+import javax.annotation.Resource;
+import javax.jms.Destination;
+import javax.jms.JMSException;
+import javax.jms.Message;
+import javax.jms.Session;
 import java.util.Date;
 import java.util.List;
 
@@ -24,6 +31,10 @@ public class ItemServiceImpl implements ItemService {
     private TbItemMapper tbItemMapper;
     @Autowired
     private TbItemDescMapper tbItemDescMapper;
+    @Autowired
+    private JmsTemplate jmsTemplate;
+    @Resource
+    private Destination topicDestination;
 
     @Override
     public TbItem getItemById(Long id) {
@@ -56,7 +67,7 @@ public class ItemServiceImpl implements ItemService {
     @Override
     public E3Result addItem(TbItem item, String desc) {
         //生成商品id
-        Long id = IDUtils.genItemId();
+        final Long id = IDUtils.genItemId();
         //补全item数据
         item.setId(id);
         item.setStatus((byte)1);
@@ -73,6 +84,14 @@ public class ItemServiceImpl implements ItemService {
         tbItemDesc.setItemDesc(desc);
         //向商品描述表插入数据
         tbItemDescMapper.insert(tbItemDesc);
+        //发送商品添加消息到消息队列
+        jmsTemplate.send(topicDestination, new MessageCreator() {
+            @Override
+            public Message createMessage(Session session) throws JMSException {
+                System.out.println(id + "****************************service");
+                return session.createTextMessage(id + "");
+            }
+        });
         //返回成功信息
         return E3Result.ok();
     }

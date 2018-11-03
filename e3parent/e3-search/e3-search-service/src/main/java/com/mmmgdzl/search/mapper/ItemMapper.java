@@ -11,4 +11,8 @@ public interface ItemMapper {
      */
     List<SearchItem> getItemList();
 
+    /**
+     * 根据商品id查询商品信息
+     */
+    SearchItem getItemById(Long itemId);
 }
