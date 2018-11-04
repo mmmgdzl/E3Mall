@@ -666,3 +666,599 @@ java.io.IOException: Can not lock the registry cache file C:\Users\Administrator
 
 [INFO ] 2018-11-04 00:51:58,881 method:org.springframework.jms.connection.SingleConnectionFactory.initConnection(SingleConnectionFactory.java:311)
 Established shared JMS Connection: ActiveMQConnection {id=ID:PC-20180509LBAV-49692-1541263918764-1:1,clientId=null,started=false}
+
+
+[INFO ] 2018-11-04 13:36:17,848 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:307)
+Root WebApplicationContext: initialization started
+
+
+[INFO ] 2018-11-04 13:36:18,034 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578)
+Refreshing Root WebApplicationContext: startup date [Sun Nov 04 13:36:18 CST 2018]; root of context hierarchy
+
+
+[INFO ] 2018-11-04 13:36:18,135 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [F:\IWork-ideaIU\E3\e3parent\e3-manager\e3-manager-service\target\classes\spring\applicationContext-activemq.xml]
+
+
+[INFO ] 2018-11-04 13:36:18,443 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [F:\IWork-ideaIU\E3\e3parent\e3-manager\e3-manager-service\target\classes\spring\applicationContext-dao.xml]
+
+
+[INFO ] 2018-11-04 13:36:18,531 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [F:\IWork-ideaIU\E3\e3parent\e3-manager\e3-manager-service\target\classes\spring\applicationContext-service.xml]
+
+
+[INFO ] 2018-11-04 13:36:18,736 method:
+using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+
+
+[INFO ] 2018-11-04 13:36:18,787 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [F:\IWork-ideaIU\E3\e3parent\e3-manager\e3-manager-service\target\classes\spring\applicationContext-trans.xml]
+
+
+[INFO ] 2018-11-04 13:36:19,145 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from class path resource [conf/db.properties]
+
+
+[INFO ] 2018-11-04 13:36:19,163 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2018-11-04 13:36:21,611 method:com.alibaba.dubbo.config.spring.ServiceBean.onApplicationEvent(ServiceBean.java:107)
+ [DUBBO] The service ready on spring started. service: com.mmmgdzl.service.ItemService, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 13:36:22,043 method:com.alibaba.dubbo.config.ServiceConfig.exportLocal(ServiceConfig.java:510)
+ [DUBBO] Export dubbo service com.mmmgdzl.service.ItemService to local registry, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 13:36:22,044 method:com.alibaba.dubbo.config.ServiceConfig.doExportUrlsFor1Protocol(ServiceConfig.java:470)
+ [DUBBO] Export dubbo service com.mmmgdzl.service.ItemService to url dubbo://192.168.25.1:20880/com.mmmgdzl.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemService&methods=addItem,getItemList,getItemById,getItemDescById&pid=36208&side=provider&timeout=60000&timestamp=1541309781743, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 13:36:22,045 method:com.alibaba.dubbo.config.ServiceConfig.doExportUrlsFor1Protocol(ServiceConfig.java:481)
+ [DUBBO] Register dubbo service com.mmmgdzl.service.ItemService url dubbo://192.168.25.1:20880/com.mmmgdzl.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemService&methods=addItem,getItemList,getItemById,getItemDescById&pid=36208&side=provider&timeout=60000&timestamp=1541309781743 to registry registry://192.168.25.128:2181/com.alibaba.dubbo.registry.RegistryService?application=e3-manager&dubbo=2.5.3&pid=36208&registry=zookeeper&timestamp=1541309781639, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 13:36:22,500 method:com.alibaba.dubbo.remoting.transport.AbstractServer.<init>(AbstractServer.java:69)
+ [DUBBO] Start NettyServer bind /0.0.0.0:20880, export /192.168.25.1:20880, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 13:36:22,541 method:com.alibaba.dubbo.registry.support.AbstractRegistry.loadProperties(AbstractRegistry.java:232)
+ [DUBBO] Load registry store file C:\Users\Administrator\.dubbo\dubbo-registry-192.168.25.128.cache, data: {com.mmmgdzl.content.service.ContentCategoryService=empty://192.168.25.1:20881/com.mmmgdzl.content.service.ContentCategoryService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.mmmgdzl.content.service.ContentCategoryService&methods=addNode,update,getContentCatList,delete&pid=34084&side=provider&timeout=60000&timestamp=1541309765438, com.mmmgdzl.service.ItemService=empty://192.168.25.1/com.mmmgdzl.service.ItemService?application=e3-manager-web&category=configurators&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemService&methods=addItem,getItemList,getItemById&pid=20644&revision=1.0-SNAPSHOT&side=consumer&timestamp=1541262604826 empty://192.168.25.1/com.mmmgdzl.service.ItemService?application=e3-manager-web&category=routers&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemService&methods=addItem,getItemList,getItemById&pid=20644&revision=1.0-SNAPSHOT&side=consumer&timestamp=1541262604826 dubbo://192.168.25.1:20880/com.mmmgdzl.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemService&methods=addItem,getItemList,getItemById&pid=27544&side=provider&timeout=60000&timestamp=1541263877595, com.mmmgdzl.search.service.SearchItemService=empty://192.168.25.1:20882/com.mmmgdzl.search.service.SearchItemService?anyhost=true&application=e3-search&category=configurators&check=false&dubbo=2.5.3&interface=com.mmmgdzl.search.service.SearchItemService&methods=importAllItems&pid=18220&side=provider&timeout=60000&timestamp=1541264108297, com.mmmgdzl.content.service.ContentService=empty://192.168.25.1:20881/com.mmmgdzl.content.service.ContentService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.mmmgdzl.content.service.ContentService&methods=getContentListByCid,addContent&pid=34084&side=provider&timeout=60000&timestamp=1541309775536, com.mmmgdzl.search.service.SearchService=empty://192.168.25.1:20882/com.mmmgdzl.search.service.SearchService?anyhost=true&application=e3-search&category=configurators&check=false&dubbo=2.5.3&interface=com.mmmgdzl.search.service.SearchService&methods=search&pid=18220&side=provider&timeout=60000&timestamp=1541264118079, com.mmmgdzl.service.ItemCatService=empty://192.168.25.1/com.mmmgdzl.service.ItemCatService?application=e3-manager-web&category=configurators&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemCatService&methods=getItemCatList&pid=20644&revision=1.0-SNAPSHOT&side=consumer&timestamp=1541262604750 empty://192.168.25.1/com.mmmgdzl.service.ItemCatService?application=e3-manager-web&category=routers&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemCatService&methods=getItemCatList&pid=20644&revision=1.0-SNAPSHOT&side=consumer&timestamp=1541262604750 dubbo://192.168.25.1:20880/com.mmmgdzl.service.ItemCatService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemCatService&methods=getItemCatList&pid=27544&side=provider&timeout=60000&timestamp=1541263887810}, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 13:36:22,591 method:org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:64)
+Starting ZkClient event thread.
+
+
+[INFO ] 2018-11-04 13:36:31,667 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:zookeeper.version=3.4.7-1713338, built on 11/09/2015 04:32 GMT
+
+
+[INFO ] 2018-11-04 13:36:31,668 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:host.name=PC-20180509LBAV
+
+
+[INFO ] 2018-11-04 13:36:31,669 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.version=1.8.0_171
+
+
+[INFO ] 2018-11-04 13:36:31,669 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.vendor=Oracle Corporation
+
+
+[INFO ] 2018-11-04 13:36:31,669 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.home=F:\JAVA-JDKJRE\jdk1.8.0_171\jre
+
+
+[INFO ] 2018-11-04 13:36:31,669 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.class.path=F:\maven\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar;F:\ideaIU\IntelliJ IDEA 2018.2.4\lib\idea_rt.jar
+
+
+[INFO ] 2018-11-04 13:36:31,669 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.library.path=F:\JAVA-JDKJRE\jdk1.8.0_171\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;F:\Orical\product\11.2.0\dbhome_1\bin;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;F:\OpenCV\opencv\build\x64\vc15\bin;F:\SVN\VisualSVN Server\bin;F:\SVN\TortoiseSVN\bin;F:\Git\cmd;F:\GitExtensions\;F:\maven\apache-maven-3.3.9\bin;F:\JAVA-JDKJRE\jdk1.8.0_171\bin;C:\Program Files\MySQL\MySQL Server 5.6\bin;F:\PHPStudy\PHPTutorial\Apache\bin;"C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps";;F:\远程访问工具;.
+
+
+[INFO ] 2018-11-04 13:36:31,670 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
+
+
+[INFO ] 2018-11-04 13:36:31,670 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.compiler=<NA>
+
+
+[INFO ] 2018-11-04 13:36:31,670 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.name=Windows 10
+
+
+[INFO ] 2018-11-04 13:36:31,670 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.arch=amd64
+
+
+[INFO ] 2018-11-04 13:36:31,670 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.version=10.0
+
+
+[INFO ] 2018-11-04 13:36:31,671 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.name=mmmgdzl
+
+
+[INFO ] 2018-11-04 13:36:31,671 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.home=C:\Users\Administrator
+
+
+[INFO ] 2018-11-04 13:36:31,671 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.dir=F:\IWork-ideaIU\E3\e3parent\e3-manager
+
+
+[INFO ] 2018-11-04 13:36:31,674 method:org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:438)
+Initiating client connection, connectString=192.168.25.128:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@32746ba2
+
+
+[INFO ] 2018-11-04 13:36:31,933 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.25.128/192.168.25.128:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-11-04 13:36:31,937 method:org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:876)
+Socket connection established to 192.168.25.128/192.168.25.128:2181, initiating session
+
+
+[INFO ] 2018-11-04 13:36:31,951 method:org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1299)
+Session establishment complete on server 192.168.25.128/192.168.25.128:2181, sessionid = 0x166da4b0db10013, negotiated timeout = 30000
+
+
+[INFO ] 2018-11-04 13:36:31,954 method:org.I0Itec.zkclient.ZkClient.processStateChanged(ZkClient.java:449)
+zookeeper state changed (SyncConnected)
+
+
+[INFO ] 2018-11-04 13:36:31,956 method:com.alibaba.dubbo.registry.support.AbstractRegistry.register(AbstractRegistry.java:302)
+ [DUBBO] Register: dubbo://192.168.25.1:20880/com.mmmgdzl.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemService&methods=addItem,getItemList,getItemById,getItemDescById&pid=36208&side=provider&timeout=60000&timestamp=1541309781743, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 13:36:31,994 method:com.alibaba.dubbo.registry.support.AbstractRegistry.subscribe(AbstractRegistry.java:325)
+ [DUBBO] Subscribe: provider://192.168.25.1:20880/com.mmmgdzl.service.ItemService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemService&methods=addItem,getItemList,getItemById,getItemDescById&pid=36208&side=provider&timeout=60000&timestamp=1541309781743, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 13:36:32,023 method:com.alibaba.dubbo.registry.support.AbstractRegistry.notify(AbstractRegistry.java:422)
+ [DUBBO] Notify urls for subscribe url provider://192.168.25.1:20880/com.mmmgdzl.service.ItemService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemService&methods=addItem,getItemList,getItemById,getItemDescById&pid=36208&side=provider&timeout=60000&timestamp=1541309781743, urls: [empty://192.168.25.1:20880/com.mmmgdzl.service.ItemService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemService&methods=addItem,getItemList,getItemById,getItemDescById&pid=36208&side=provider&timeout=60000&timestamp=1541309781743], dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 13:36:32,088 method:com.alibaba.dubbo.config.spring.ServiceBean.onApplicationEvent(ServiceBean.java:107)
+ [DUBBO] The service ready on spring started. service: com.mmmgdzl.service.ItemCatService, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 13:36:32,138 method:com.alibaba.dubbo.config.ServiceConfig.exportLocal(ServiceConfig.java:510)
+ [DUBBO] Export dubbo service com.mmmgdzl.service.ItemCatService to local registry, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 13:36:32,138 method:com.alibaba.dubbo.config.ServiceConfig.doExportUrlsFor1Protocol(ServiceConfig.java:470)
+ [DUBBO] Export dubbo service com.mmmgdzl.service.ItemCatService to url dubbo://192.168.25.1:20880/com.mmmgdzl.service.ItemCatService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemCatService&methods=getItemCatList&pid=36208&side=provider&timeout=60000&timestamp=1541309792118, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 13:36:32,138 method:com.alibaba.dubbo.config.ServiceConfig.doExportUrlsFor1Protocol(ServiceConfig.java:481)
+ [DUBBO] Register dubbo service com.mmmgdzl.service.ItemCatService url dubbo://192.168.25.1:20880/com.mmmgdzl.service.ItemCatService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemCatService&methods=getItemCatList&pid=36208&side=provider&timeout=60000&timestamp=1541309792118 to registry registry://192.168.25.128:2181/com.alibaba.dubbo.registry.RegistryService?application=e3-manager&dubbo=2.5.3&pid=36208&registry=zookeeper&timestamp=1541309792116, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 13:36:32,145 method:com.alibaba.dubbo.registry.support.AbstractRegistry.register(AbstractRegistry.java:302)
+ [DUBBO] Register: dubbo://192.168.25.1:20880/com.mmmgdzl.service.ItemCatService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemCatService&methods=getItemCatList&pid=36208&side=provider&timeout=60000&timestamp=1541309792118, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 13:36:32,156 method:com.alibaba.dubbo.registry.support.AbstractRegistry.subscribe(AbstractRegistry.java:325)
+ [DUBBO] Subscribe: provider://192.168.25.1:20880/com.mmmgdzl.service.ItemCatService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemCatService&methods=getItemCatList&pid=36208&side=provider&timeout=60000&timestamp=1541309792118, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 13:36:32,167 method:com.alibaba.dubbo.registry.support.AbstractRegistry.notify(AbstractRegistry.java:422)
+ [DUBBO] Notify urls for subscribe url provider://192.168.25.1:20880/com.mmmgdzl.service.ItemCatService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemCatService&methods=getItemCatList&pid=36208&side=provider&timeout=60000&timestamp=1541309792118, urls: [empty://192.168.25.1:20880/com.mmmgdzl.service.ItemCatService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemCatService&methods=getItemCatList&pid=36208&side=provider&timeout=60000&timestamp=1541309792118], dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 13:36:32,173 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:347)
+Root WebApplicationContext: initialization completed in 14321 ms
+
+
+[INFO ] 2018-11-04 13:38:49,187 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:655)
+{dataSource-1} inited
+
+
+[INFO ] 2018-11-04 13:40:29,698 method:org.springframework.jms.connection.SingleConnectionFactory.initConnection(SingleConnectionFactory.java:311)
+Established shared JMS Connection: ActiveMQConnection {id=ID:PC-20180509LBAV-59274-1541310029581-1:1,clientId=null,started=false}
+
+
+[INFO ] 2018-11-04 13:45:46,107 method:com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol$1.disconnected(DubboProtocol.java:130)
+ [DUBBO] disconected from /192.168.25.1:58770,url:dubbo://192.168.25.1:20880/com.mmmgdzl.service.ItemService?anyhost=true&application=e3-manager&channel.readonly.sent=true&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.mmmgdzl.service.ItemService&methods=addItem,getItemList,getItemById,getItemDescById&pid=36208&side=provider&timeout=60000&timestamp=1541309781743, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 14:42:22,577 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:307)
+Root WebApplicationContext: initialization started
+
+
+[INFO ] 2018-11-04 14:42:22,780 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578)
+Refreshing Root WebApplicationContext: startup date [Sun Nov 04 14:42:22 CST 2018]; root of context hierarchy
+
+
+[INFO ] 2018-11-04 14:42:22,851 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [F:\IWork-ideaIU\E3\e3parent\e3-manager\e3-manager-service\target\classes\spring\applicationContext-activemq.xml]
+
+
+[INFO ] 2018-11-04 14:42:23,150 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [F:\IWork-ideaIU\E3\e3parent\e3-manager\e3-manager-service\target\classes\spring\applicationContext-dao.xml]
+
+
+[INFO ] 2018-11-04 14:42:23,239 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [F:\IWork-ideaIU\E3\e3parent\e3-manager\e3-manager-service\target\classes\spring\applicationContext-redis.xml]
+
+
+[INFO ] 2018-11-04 14:42:23,265 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [F:\IWork-ideaIU\E3\e3parent\e3-manager\e3-manager-service\target\classes\spring\applicationContext-service.xml]
+
+
+[INFO ] 2018-11-04 14:42:23,458 method:
+using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+
+
+[INFO ] 2018-11-04 14:42:23,520 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [F:\IWork-ideaIU\E3\e3parent\e3-manager\e3-manager-service\target\classes\spring\applicationContext-trans.xml]
+
+
+[INFO ] 2018-11-04 14:42:23,923 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from file [F:\IWork-ideaIU\E3\e3parent\e3-manager\e3-manager-service\target\classes\conf\db.properties]
+
+
+[INFO ] 2018-11-04 14:42:23,924 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from file [F:\IWork-ideaIU\E3\e3parent\e3-manager\e3-manager-service\target\classes\conf\resource.properties]
+
+
+[INFO ] 2018-11-04 14:42:23,937 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2018-11-04 14:42:26,517 method:com.alibaba.dubbo.config.spring.ServiceBean.onApplicationEvent(ServiceBean.java:107)
+ [DUBBO] The service ready on spring started. service: com.mmmgdzl.service.ItemService, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 14:42:26,732 method:com.alibaba.dubbo.config.ServiceConfig.exportLocal(ServiceConfig.java:510)
+ [DUBBO] Export dubbo service com.mmmgdzl.service.ItemService to local registry, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 14:42:26,733 method:com.alibaba.dubbo.config.ServiceConfig.doExportUrlsFor1Protocol(ServiceConfig.java:470)
+ [DUBBO] Export dubbo service com.mmmgdzl.service.ItemService to url dubbo://192.168.25.1:20880/com.mmmgdzl.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemService&methods=addItem,getItemList,getItemById,getItemDescById&pid=37736&side=provider&timeout=60000&timestamp=1541313746568, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 14:42:26,734 method:com.alibaba.dubbo.config.ServiceConfig.doExportUrlsFor1Protocol(ServiceConfig.java:481)
+ [DUBBO] Register dubbo service com.mmmgdzl.service.ItemService url dubbo://192.168.25.1:20880/com.mmmgdzl.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemService&methods=addItem,getItemList,getItemById,getItemDescById&pid=37736&side=provider&timeout=60000&timestamp=1541313746568 to registry registry://192.168.25.128:2181/com.alibaba.dubbo.registry.RegistryService?application=e3-manager&dubbo=2.5.3&pid=37736&registry=zookeeper&timestamp=1541313746534, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 14:42:27,106 method:com.alibaba.dubbo.remoting.transport.AbstractServer.<init>(AbstractServer.java:69)
+ [DUBBO] Start NettyServer bind /0.0.0.0:20880, export /192.168.25.1:20880, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 14:42:27,155 method:com.alibaba.dubbo.registry.support.AbstractRegistry.loadProperties(AbstractRegistry.java:232)
+ [DUBBO] Load registry store file C:\Users\Administrator\.dubbo\dubbo-registry-192.168.25.128.cache, data: {com.mmmgdzl.content.service.ContentCategoryService=empty://192.168.25.1/com.mmmgdzl.content.service.ContentCategoryService?application=e3-manager-web&category=configurators&dubbo=2.5.3&interface=com.mmmgdzl.content.service.ContentCategoryService&methods=addNode,update,getContentCatList,delete&pid=37064&revision=1.0-SNAPSHOT&side=consumer&timestamp=1541309867203 empty://192.168.25.1/com.mmmgdzl.content.service.ContentCategoryService?application=e3-manager-web&category=routers&dubbo=2.5.3&interface=com.mmmgdzl.content.service.ContentCategoryService&methods=addNode,update,getContentCatList,delete&pid=37064&revision=1.0-SNAPSHOT&side=consumer&timestamp=1541309867203 dubbo://192.168.25.1:20881/com.mmmgdzl.content.service.ContentCategoryService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.mmmgdzl.content.service.ContentCategoryService&methods=addNode,update,getContentCatList,delete&pid=34084&side=provider&timeout=60000&timestamp=1541309765438, com.mmmgdzl.service.ItemService=empty://192.168.25.1/com.mmmgdzl.service.ItemService?application=e3-item-web&category=configurators&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemService&methods=getItemList,addItem,getItemById,getItemDescById&pid=37216&revision=1.0-SNAPSHOT&side=consumer&timestamp=1541309883120 empty://192.168.25.1/com.mmmgdzl.service.ItemService?application=e3-item-web&category=routers&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemService&methods=getItemList,addItem,getItemById,getItemDescById&pid=37216&revision=1.0-SNAPSHOT&side=consumer&timestamp=1541309883120 empty://192.168.25.1/com.mmmgdzl.service.ItemService?application=e3-item-web&category=providers&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemService&methods=getItemList,addItem,getItemById,getItemDescById&pid=37216&revision=1.0-SNAPSHOT&side=consumer&timestamp=1541309883120, com.mmmgdzl.search.service.SearchItemService=empty://192.168.25.1/com.mmmgdzl.search.service.SearchItemService?application=e3-manager-web&category=configurators&dubbo=2.5.3&interface=com.mmmgdzl.search.service.SearchItemService&methods=importAllItems&pid=37064&revision=1.0-SNAPSHOT&side=consumer&timestamp=1541309879605 empty://192.168.25.1/com.mmmgdzl.search.service.SearchItemService?application=e3-manager-web&category=routers&dubbo=2.5.3&interface=com.mmmgdzl.search.service.SearchItemService&methods=importAllItems&pid=37064&revision=1.0-SNAPSHOT&side=consumer&timestamp=1541309879605 dubbo://192.168.25.1:20882/com.mmmgdzl.search.service.SearchItemService?anyhost=true&application=e3-search&dubbo=2.5.3&interface=com.mmmgdzl.search.service.SearchItemService&methods=importAllItems&pid=31324&side=provider&timeout=60000&timestamp=1541309827845, com.mmmgdzl.content.service.ContentService=empty://192.168.25.1/com.mmmgdzl.content.service.ContentService?application=e3-manager-web&category=configurators&dubbo=2.5.3&interface=com.mmmgdzl.content.service.ContentService&methods=getContentListByCid,addContent&pid=37064&revision=1.0-SNAPSHOT&side=consumer&timestamp=1541309879106 empty://192.168.25.1/com.mmmgdzl.content.service.ContentService?application=e3-manager-web&category=routers&dubbo=2.5.3&interface=com.mmmgdzl.content.service.ContentService&methods=getContentListByCid,addContent&pid=37064&revision=1.0-SNAPSHOT&side=consumer&timestamp=1541309879106 dubbo://192.168.25.1:20881/com.mmmgdzl.content.service.ContentService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.mmmgdzl.content.service.ContentService&methods=getContentListByCid,addContent&pid=34084&side=provider&timeout=60000&timestamp=1541309775536, com.mmmgdzl.search.service.SearchService=empty://192.168.25.1/com.mmmgdzl.search.service.SearchService?application=e3-portal-web&category=configurators&dubbo=2.5.3&interface=com.mmmgdzl.search.service.SearchService&methods=search&pid=36160&revision=1.0-SNAPSHOT&side=consumer&timestamp=1541309828740 empty://192.168.25.1/com.mmmgdzl.search.service.SearchService?application=e3-portal-web&category=routers&dubbo=2.5.3&interface=com.mmmgdzl.search.service.SearchService&methods=search&pid=36160&revision=1.0-SNAPSHOT&side=consumer&timestamp=1541309828740 dubbo://192.168.25.1:20882/com.mmmgdzl.search.service.SearchService?anyhost=true&application=e3-search&dubbo=2.5.3&interface=com.mmmgdzl.search.service.SearchService&methods=search&pid=31324&side=provider&timeout=60000&timestamp=1541309837661, com.mmmgdzl.service.ItemCatService=empty://192.168.25.1/com.mmmgdzl.service.ItemCatService?application=e3-manager-web&category=configurators&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemCatService&methods=getItemCatList&pid=37064&revision=1.0-SNAPSHOT&side=consumer&timestamp=1541309879286 empty://192.168.25.1/com.mmmgdzl.service.ItemCatService?application=e3-manager-web&category=routers&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemCatService&methods=getItemCatList&pid=37064&revision=1.0-SNAPSHOT&side=consumer&timestamp=1541309879286 dubbo://192.168.25.1:20880/com.mmmgdzl.service.ItemCatService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemCatService&methods=getItemCatList&pid=36208&side=provider&timeout=60000&timestamp=1541309792118}, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 14:42:27,239 method:org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:64)
+Starting ZkClient event thread.
+
+
+[INFO ] 2018-11-04 14:42:36,249 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:zookeeper.version=3.4.7-1713338, built on 11/09/2015 04:32 GMT
+
+
+[INFO ] 2018-11-04 14:42:36,249 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:host.name=PC-20180509LBAV
+
+
+[INFO ] 2018-11-04 14:42:36,249 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.version=1.8.0_171
+
+
+[INFO ] 2018-11-04 14:42:36,250 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.vendor=Oracle Corporation
+
+
+[INFO ] 2018-11-04 14:42:36,250 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.home=F:\JAVA-JDKJRE\jdk1.8.0_171\jre
+
+
+[INFO ] 2018-11-04 14:42:36,250 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.class.path=F:\maven\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar;F:\ideaIU\IntelliJ IDEA 2018.2.4\lib\idea_rt.jar
+
+
+[INFO ] 2018-11-04 14:42:36,250 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.library.path=F:\JAVA-JDKJRE\jdk1.8.0_171\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;F:\Orical\product\11.2.0\dbhome_1\bin;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;F:\OpenCV\opencv\build\x64\vc15\bin;F:\SVN\VisualSVN Server\bin;F:\SVN\TortoiseSVN\bin;F:\Git\cmd;F:\GitExtensions\;F:\maven\apache-maven-3.3.9\bin;F:\JAVA-JDKJRE\jdk1.8.0_171\bin;C:\Program Files\MySQL\MySQL Server 5.6\bin;F:\PHPStudy\PHPTutorial\Apache\bin;"C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps";;F:\远程访问工具;.
+
+
+[INFO ] 2018-11-04 14:42:36,250 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
+
+
+[INFO ] 2018-11-04 14:42:36,250 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.compiler=<NA>
+
+
+[INFO ] 2018-11-04 14:42:36,251 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.name=Windows 10
+
+
+[INFO ] 2018-11-04 14:42:36,251 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.arch=amd64
+
+
+[INFO ] 2018-11-04 14:42:36,252 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.version=10.0
+
+
+[INFO ] 2018-11-04 14:42:36,252 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.name=mmmgdzl
+
+
+[INFO ] 2018-11-04 14:42:36,253 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.home=C:\Users\Administrator
+
+
+[INFO ] 2018-11-04 14:42:36,253 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.dir=F:\IWork-ideaIU\E3\e3parent\e3-manager
+
+
+[INFO ] 2018-11-04 14:42:36,254 method:org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:438)
+Initiating client connection, connectString=192.168.25.128:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@4c8f04f5
+
+
+[INFO ] 2018-11-04 14:42:36,288 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.25.128/192.168.25.128:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-11-04 14:42:36,290 method:org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:876)
+Socket connection established to 192.168.25.128/192.168.25.128:2181, initiating session
+
+
+[INFO ] 2018-11-04 14:42:36,303 method:org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1299)
+Session establishment complete on server 192.168.25.128/192.168.25.128:2181, sessionid = 0x166da4b0db10019, negotiated timeout = 30000
+
+
+[INFO ] 2018-11-04 14:42:36,305 method:org.I0Itec.zkclient.ZkClient.processStateChanged(ZkClient.java:449)
+zookeeper state changed (SyncConnected)
+
+
+[INFO ] 2018-11-04 14:42:36,307 method:com.alibaba.dubbo.registry.support.AbstractRegistry.register(AbstractRegistry.java:302)
+ [DUBBO] Register: dubbo://192.168.25.1:20880/com.mmmgdzl.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemService&methods=addItem,getItemList,getItemById,getItemDescById&pid=37736&side=provider&timeout=60000&timestamp=1541313746568, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 14:42:36,369 method:com.alibaba.dubbo.registry.support.AbstractRegistry.subscribe(AbstractRegistry.java:325)
+ [DUBBO] Subscribe: provider://192.168.25.1:20880/com.mmmgdzl.service.ItemService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemService&methods=addItem,getItemList,getItemById,getItemDescById&pid=37736&side=provider&timeout=60000&timestamp=1541313746568, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 14:42:36,417 method:com.alibaba.dubbo.registry.support.AbstractRegistry.notify(AbstractRegistry.java:422)
+ [DUBBO] Notify urls for subscribe url provider://192.168.25.1:20880/com.mmmgdzl.service.ItemService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemService&methods=addItem,getItemList,getItemById,getItemDescById&pid=37736&side=provider&timeout=60000&timestamp=1541313746568, urls: [empty://192.168.25.1:20880/com.mmmgdzl.service.ItemService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemService&methods=addItem,getItemList,getItemById,getItemDescById&pid=37736&side=provider&timeout=60000&timestamp=1541313746568], dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 14:42:36,461 method:com.alibaba.dubbo.config.spring.ServiceBean.onApplicationEvent(ServiceBean.java:107)
+ [DUBBO] The service ready on spring started. service: com.mmmgdzl.service.ItemCatService, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 14:42:36,477 method:com.alibaba.dubbo.config.ServiceConfig.exportLocal(ServiceConfig.java:510)
+ [DUBBO] Export dubbo service com.mmmgdzl.service.ItemCatService to local registry, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 14:42:36,477 method:com.alibaba.dubbo.config.ServiceConfig.doExportUrlsFor1Protocol(ServiceConfig.java:470)
+ [DUBBO] Export dubbo service com.mmmgdzl.service.ItemCatService to url dubbo://192.168.25.1:20880/com.mmmgdzl.service.ItemCatService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemCatService&methods=getItemCatList&pid=37736&side=provider&timeout=60000&timestamp=1541313756468, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 14:42:36,478 method:com.alibaba.dubbo.config.ServiceConfig.doExportUrlsFor1Protocol(ServiceConfig.java:481)
+ [DUBBO] Register dubbo service com.mmmgdzl.service.ItemCatService url dubbo://192.168.25.1:20880/com.mmmgdzl.service.ItemCatService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemCatService&methods=getItemCatList&pid=37736&side=provider&timeout=60000&timestamp=1541313756468 to registry registry://192.168.25.128:2181/com.alibaba.dubbo.registry.RegistryService?application=e3-manager&dubbo=2.5.3&pid=37736&registry=zookeeper&timestamp=1541313756466, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 14:42:36,479 method:com.alibaba.dubbo.registry.support.AbstractRegistry.register(AbstractRegistry.java:302)
+ [DUBBO] Register: dubbo://192.168.25.1:20880/com.mmmgdzl.service.ItemCatService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemCatService&methods=getItemCatList&pid=37736&side=provider&timeout=60000&timestamp=1541313756468, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 14:42:36,490 method:com.alibaba.dubbo.registry.support.AbstractRegistry.subscribe(AbstractRegistry.java:325)
+ [DUBBO] Subscribe: provider://192.168.25.1:20880/com.mmmgdzl.service.ItemCatService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemCatService&methods=getItemCatList&pid=37736&side=provider&timeout=60000&timestamp=1541313756468, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 14:42:36,501 method:com.alibaba.dubbo.registry.support.AbstractRegistry.notify(AbstractRegistry.java:422)
+ [DUBBO] Notify urls for subscribe url provider://192.168.25.1:20880/com.mmmgdzl.service.ItemCatService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemCatService&methods=getItemCatList&pid=37736&side=provider&timeout=60000&timestamp=1541313756468, urls: [empty://192.168.25.1:20880/com.mmmgdzl.service.ItemCatService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemCatService&methods=getItemCatList&pid=37736&side=provider&timeout=60000&timestamp=1541313756468], dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 14:42:36,512 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:347)
+Root WebApplicationContext: initialization completed in 13930 ms
+
+
+[INFO ] 2018-11-04 14:47:23,005 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:307)
+Root WebApplicationContext: initialization started
+
+
+[INFO ] 2018-11-04 14:47:23,181 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578)
+Refreshing Root WebApplicationContext: startup date [Sun Nov 04 14:47:23 CST 2018]; root of context hierarchy
+
+
+[INFO ] 2018-11-04 14:47:23,259 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [F:\IWork-ideaIU\E3\e3parent\e3-manager\e3-manager-service\target\classes\spring\applicationContext-activemq.xml]
+
+
+[INFO ] 2018-11-04 14:47:23,436 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [F:\IWork-ideaIU\E3\e3parent\e3-manager\e3-manager-service\target\classes\spring\applicationContext-dao.xml]
+
+
+[INFO ] 2018-11-04 14:47:23,544 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [F:\IWork-ideaIU\E3\e3parent\e3-manager\e3-manager-service\target\classes\spring\applicationContext-redis.xml]
+
+
+[INFO ] 2018-11-04 14:47:23,563 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [F:\IWork-ideaIU\E3\e3parent\e3-manager\e3-manager-service\target\classes\spring\applicationContext-service.xml]
+
+
+[INFO ] 2018-11-04 14:47:23,732 method:
+using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+
+
+[INFO ] 2018-11-04 14:47:23,776 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [F:\IWork-ideaIU\E3\e3parent\e3-manager\e3-manager-service\target\classes\spring\applicationContext-trans.xml]
+
+
+[INFO ] 2018-11-04 14:47:24,181 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from file [F:\IWork-ideaIU\E3\e3parent\e3-manager\e3-manager-service\target\classes\conf\db.properties]
+
+
+[INFO ] 2018-11-04 14:47:24,182 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from file [F:\IWork-ideaIU\E3\e3parent\e3-manager\e3-manager-service\target\classes\conf\resource.properties]
+
+
+[INFO ] 2018-11-04 14:47:24,196 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2018-11-04 14:47:27,114 method:com.alibaba.dubbo.config.spring.ServiceBean.onApplicationEvent(ServiceBean.java:107)
+ [DUBBO] The service ready on spring started. service: com.mmmgdzl.service.ItemService, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 14:47:27,359 method:com.alibaba.dubbo.config.ServiceConfig.exportLocal(ServiceConfig.java:510)
+ [DUBBO] Export dubbo service com.mmmgdzl.service.ItemService to local registry, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 14:47:27,359 method:com.alibaba.dubbo.config.ServiceConfig.doExportUrlsFor1Protocol(ServiceConfig.java:470)
+ [DUBBO] Export dubbo service com.mmmgdzl.service.ItemService to url dubbo://192.168.25.1:20880/com.mmmgdzl.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemService&methods=getItemList,addItem,getItemById,getItemDescById&pid=33148&side=provider&timeout=60000&timestamp=1541314047166, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 14:47:27,360 method:com.alibaba.dubbo.config.ServiceConfig.doExportUrlsFor1Protocol(ServiceConfig.java:481)
+ [DUBBO] Register dubbo service com.mmmgdzl.service.ItemService url dubbo://192.168.25.1:20880/com.mmmgdzl.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemService&methods=getItemList,addItem,getItemById,getItemDescById&pid=33148&side=provider&timeout=60000&timestamp=1541314047166 to registry registry://192.168.25.128:2181/com.alibaba.dubbo.registry.RegistryService?application=e3-manager&dubbo=2.5.3&pid=33148&registry=zookeeper&timestamp=1541314047127, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 14:47:27,678 method:com.alibaba.dubbo.remoting.transport.AbstractServer.<init>(AbstractServer.java:69)
+ [DUBBO] Start NettyServer bind /0.0.0.0:20880, export /192.168.25.1:20880, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 14:47:27,710 method:com.alibaba.dubbo.registry.support.AbstractRegistry.loadProperties(AbstractRegistry.java:232)
+ [DUBBO] Load registry store file C:\Users\Administrator\.dubbo\dubbo-registry-192.168.25.128.cache, data: {com.mmmgdzl.content.service.ContentCategoryService=empty://192.168.25.1/com.mmmgdzl.content.service.ContentCategoryService?application=e3-manager-web&category=configurators&dubbo=2.5.3&interface=com.mmmgdzl.content.service.ContentCategoryService&methods=addNode,update,getContentCatList,delete&pid=37064&revision=1.0-SNAPSHOT&side=consumer&timestamp=1541309867203 empty://192.168.25.1/com.mmmgdzl.content.service.ContentCategoryService?application=e3-manager-web&category=routers&dubbo=2.5.3&interface=com.mmmgdzl.content.service.ContentCategoryService&methods=addNode,update,getContentCatList,delete&pid=37064&revision=1.0-SNAPSHOT&side=consumer&timestamp=1541309867203 dubbo://192.168.25.1:20881/com.mmmgdzl.content.service.ContentCategoryService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.mmmgdzl.content.service.ContentCategoryService&methods=addNode,update,getContentCatList,delete&pid=34084&side=provider&timeout=60000&timestamp=1541309765438, com.mmmgdzl.service.ItemService=empty://192.168.25.1/com.mmmgdzl.service.ItemService?application=e3-item-web&category=configurators&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemService&methods=getItemList,addItem,getItemById,getItemDescById&pid=37216&revision=1.0-SNAPSHOT&side=consumer&timestamp=1541309883120 empty://192.168.25.1/com.mmmgdzl.service.ItemService?application=e3-item-web&category=routers&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemService&methods=getItemList,addItem,getItemById,getItemDescById&pid=37216&revision=1.0-SNAPSHOT&side=consumer&timestamp=1541309883120 empty://192.168.25.1/com.mmmgdzl.service.ItemService?application=e3-item-web&category=providers&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemService&methods=getItemList,addItem,getItemById,getItemDescById&pid=37216&revision=1.0-SNAPSHOT&side=consumer&timestamp=1541309883120, com.mmmgdzl.search.service.SearchItemService=empty://192.168.25.1/com.mmmgdzl.search.service.SearchItemService?application=e3-manager-web&category=configurators&dubbo=2.5.3&interface=com.mmmgdzl.search.service.SearchItemService&methods=importAllItems&pid=37064&revision=1.0-SNAPSHOT&side=consumer&timestamp=1541309879605 empty://192.168.25.1/com.mmmgdzl.search.service.SearchItemService?application=e3-manager-web&category=routers&dubbo=2.5.3&interface=com.mmmgdzl.search.service.SearchItemService&methods=importAllItems&pid=37064&revision=1.0-SNAPSHOT&side=consumer&timestamp=1541309879605 dubbo://192.168.25.1:20882/com.mmmgdzl.search.service.SearchItemService?anyhost=true&application=e3-search&dubbo=2.5.3&interface=com.mmmgdzl.search.service.SearchItemService&methods=importAllItems&pid=31324&side=provider&timeout=60000&timestamp=1541309827845, com.mmmgdzl.content.service.ContentService=empty://192.168.25.1/com.mmmgdzl.content.service.ContentService?application=e3-manager-web&category=configurators&dubbo=2.5.3&interface=com.mmmgdzl.content.service.ContentService&methods=getContentListByCid,addContent&pid=37064&revision=1.0-SNAPSHOT&side=consumer&timestamp=1541309879106 empty://192.168.25.1/com.mmmgdzl.content.service.ContentService?application=e3-manager-web&category=routers&dubbo=2.5.3&interface=com.mmmgdzl.content.service.ContentService&methods=getContentListByCid,addContent&pid=37064&revision=1.0-SNAPSHOT&side=consumer&timestamp=1541309879106 dubbo://192.168.25.1:20881/com.mmmgdzl.content.service.ContentService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.mmmgdzl.content.service.ContentService&methods=getContentListByCid,addContent&pid=34084&side=provider&timeout=60000&timestamp=1541309775536, com.mmmgdzl.search.service.SearchService=empty://192.168.25.1/com.mmmgdzl.search.service.SearchService?application=e3-portal-web&category=configurators&dubbo=2.5.3&interface=com.mmmgdzl.search.service.SearchService&methods=search&pid=36160&revision=1.0-SNAPSHOT&side=consumer&timestamp=1541309828740 empty://192.168.25.1/com.mmmgdzl.search.service.SearchService?application=e3-portal-web&category=routers&dubbo=2.5.3&interface=com.mmmgdzl.search.service.SearchService&methods=search&pid=36160&revision=1.0-SNAPSHOT&side=consumer&timestamp=1541309828740 dubbo://192.168.25.1:20882/com.mmmgdzl.search.service.SearchService?anyhost=true&application=e3-search&dubbo=2.5.3&interface=com.mmmgdzl.search.service.SearchService&methods=search&pid=31324&side=provider&timeout=60000&timestamp=1541309837661, com.mmmgdzl.service.ItemCatService=empty://192.168.25.1/com.mmmgdzl.service.ItemCatService?application=e3-manager-web&category=configurators&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemCatService&methods=getItemCatList&pid=37064&revision=1.0-SNAPSHOT&side=consumer&timestamp=1541309879286 empty://192.168.25.1/com.mmmgdzl.service.ItemCatService?application=e3-manager-web&category=routers&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemCatService&methods=getItemCatList&pid=37064&revision=1.0-SNAPSHOT&side=consumer&timestamp=1541309879286 dubbo://192.168.25.1:20880/com.mmmgdzl.service.ItemCatService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemCatService&methods=getItemCatList&pid=36208&side=provider&timeout=60000&timestamp=1541309792118}, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 14:47:27,740 method:org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:64)
+Starting ZkClient event thread.
+
+
+[INFO ] 2018-11-04 14:47:36,765 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:zookeeper.version=3.4.7-1713338, built on 11/09/2015 04:32 GMT
+
+
+[INFO ] 2018-11-04 14:47:36,766 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:host.name=PC-20180509LBAV
+
+
+[INFO ] 2018-11-04 14:47:36,766 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.version=1.8.0_171
+
+
+[INFO ] 2018-11-04 14:47:36,766 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.vendor=Oracle Corporation
+
+
+[INFO ] 2018-11-04 14:47:36,766 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.home=F:\JAVA-JDKJRE\jdk1.8.0_171\jre
+
+
+[INFO ] 2018-11-04 14:47:36,767 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.class.path=F:\maven\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar;F:\ideaIU\IntelliJ IDEA 2018.2.4\lib\idea_rt.jar
+
+
+[INFO ] 2018-11-04 14:47:36,767 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.library.path=F:\JAVA-JDKJRE\jdk1.8.0_171\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;F:\Orical\product\11.2.0\dbhome_1\bin;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;F:\OpenCV\opencv\build\x64\vc15\bin;F:\SVN\VisualSVN Server\bin;F:\SVN\TortoiseSVN\bin;F:\Git\cmd;F:\GitExtensions\;F:\maven\apache-maven-3.3.9\bin;F:\JAVA-JDKJRE\jdk1.8.0_171\bin;C:\Program Files\MySQL\MySQL Server 5.6\bin;F:\PHPStudy\PHPTutorial\Apache\bin;"C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps";;F:\远程访问工具;.
+
+
+[INFO ] 2018-11-04 14:47:36,767 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
+
+
+[INFO ] 2018-11-04 14:47:36,767 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.compiler=<NA>
+
+
+[INFO ] 2018-11-04 14:47:36,768 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.name=Windows 10
+
+
+[INFO ] 2018-11-04 14:47:36,768 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.arch=amd64
+
+
+[INFO ] 2018-11-04 14:47:36,768 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.version=10.0
+
+
+[INFO ] 2018-11-04 14:47:36,768 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.name=mmmgdzl
+
+
+[INFO ] 2018-11-04 14:47:36,768 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.home=C:\Users\Administrator
+
+
+[INFO ] 2018-11-04 14:47:36,769 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.dir=F:\IWork-ideaIU\E3\e3parent\e3-manager
+
+
+[INFO ] 2018-11-04 14:47:36,770 method:org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:438)
+Initiating client connection, connectString=192.168.25.128:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@65860696
+
+
+[INFO ] 2018-11-04 14:47:36,805 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.25.128/192.168.25.128:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-11-04 14:47:36,807 method:org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:876)
+Socket connection established to 192.168.25.128/192.168.25.128:2181, initiating session
+
+
+[INFO ] 2018-11-04 14:47:36,818 method:org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1299)
+Session establishment complete on server 192.168.25.128/192.168.25.128:2181, sessionid = 0x166da4b0db1001a, negotiated timeout = 30000
+
+
+[INFO ] 2018-11-04 14:47:36,821 method:org.I0Itec.zkclient.ZkClient.processStateChanged(ZkClient.java:449)
+zookeeper state changed (SyncConnected)
+
+
+[INFO ] 2018-11-04 14:47:36,823 method:com.alibaba.dubbo.registry.support.AbstractRegistry.register(AbstractRegistry.java:302)
+ [DUBBO] Register: dubbo://192.168.25.1:20880/com.mmmgdzl.service.ItemService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemService&methods=getItemList,addItem,getItemById,getItemDescById&pid=33148&side=provider&timeout=60000&timestamp=1541314047166, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 14:47:36,858 method:com.alibaba.dubbo.registry.support.AbstractRegistry.subscribe(AbstractRegistry.java:325)
+ [DUBBO] Subscribe: provider://192.168.25.1:20880/com.mmmgdzl.service.ItemService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemService&methods=getItemList,addItem,getItemById,getItemDescById&pid=33148&side=provider&timeout=60000&timestamp=1541314047166, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 14:47:36,894 method:com.alibaba.dubbo.registry.support.AbstractRegistry.notify(AbstractRegistry.java:422)
+ [DUBBO] Notify urls for subscribe url provider://192.168.25.1:20880/com.mmmgdzl.service.ItemService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemService&methods=getItemList,addItem,getItemById,getItemDescById&pid=33148&side=provider&timeout=60000&timestamp=1541314047166, urls: [empty://192.168.25.1:20880/com.mmmgdzl.service.ItemService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemService&methods=getItemList,addItem,getItemById,getItemDescById&pid=33148&side=provider&timeout=60000&timestamp=1541314047166], dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 14:47:36,947 method:com.alibaba.dubbo.config.spring.ServiceBean.onApplicationEvent(ServiceBean.java:107)
+ [DUBBO] The service ready on spring started. service: com.mmmgdzl.service.ItemCatService, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 14:47:36,961 method:com.alibaba.dubbo.config.ServiceConfig.exportLocal(ServiceConfig.java:510)
+ [DUBBO] Export dubbo service com.mmmgdzl.service.ItemCatService to local registry, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 14:47:36,961 method:com.alibaba.dubbo.config.ServiceConfig.doExportUrlsFor1Protocol(ServiceConfig.java:470)
+ [DUBBO] Export dubbo service com.mmmgdzl.service.ItemCatService to url dubbo://192.168.25.1:20880/com.mmmgdzl.service.ItemCatService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemCatService&methods=getItemCatList&pid=33148&side=provider&timeout=60000&timestamp=1541314056953, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 14:47:36,962 method:com.alibaba.dubbo.config.ServiceConfig.doExportUrlsFor1Protocol(ServiceConfig.java:481)
+ [DUBBO] Register dubbo service com.mmmgdzl.service.ItemCatService url dubbo://192.168.25.1:20880/com.mmmgdzl.service.ItemCatService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemCatService&methods=getItemCatList&pid=33148&side=provider&timeout=60000&timestamp=1541314056953 to registry registry://192.168.25.128:2181/com.alibaba.dubbo.registry.RegistryService?application=e3-manager&dubbo=2.5.3&pid=33148&registry=zookeeper&timestamp=1541314056952, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 14:47:36,963 method:com.alibaba.dubbo.registry.support.AbstractRegistry.register(AbstractRegistry.java:302)
+ [DUBBO] Register: dubbo://192.168.25.1:20880/com.mmmgdzl.service.ItemCatService?anyhost=true&application=e3-manager&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemCatService&methods=getItemCatList&pid=33148&side=provider&timeout=60000&timestamp=1541314056953, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 14:47:36,973 method:com.alibaba.dubbo.registry.support.AbstractRegistry.subscribe(AbstractRegistry.java:325)
+ [DUBBO] Subscribe: provider://192.168.25.1:20880/com.mmmgdzl.service.ItemCatService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemCatService&methods=getItemCatList&pid=33148&side=provider&timeout=60000&timestamp=1541314056953, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 14:47:36,984 method:com.alibaba.dubbo.registry.support.AbstractRegistry.notify(AbstractRegistry.java:422)
+ [DUBBO] Notify urls for subscribe url provider://192.168.25.1:20880/com.mmmgdzl.service.ItemCatService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemCatService&methods=getItemCatList&pid=33148&side=provider&timeout=60000&timestamp=1541314056953, urls: [empty://192.168.25.1:20880/com.mmmgdzl.service.ItemCatService?anyhost=true&application=e3-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.mmmgdzl.service.ItemCatService&methods=getItemCatList&pid=33148&side=provider&timeout=60000&timestamp=1541314056953], dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-11-04 14:47:36,992 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:347)
+Root WebApplicationContext: initialization completed in 13983 ms
+
+
+[INFO ] 2018-11-04 14:48:11,110 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:655)
+{dataSource-1} inited
