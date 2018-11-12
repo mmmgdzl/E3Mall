@@ -46,3 +46,23 @@ Loading properties file from file [F:\IWork-ideaIU\E3\e3parent\e3-manager\e3-man
 
 [INFO ] 2018-11-04 14:47:03,042 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:655)
 {dataSource-1} inited
+
+
+[INFO ] 2018-11-12 16:59:11,981 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578)
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@36f6e879: startup date [Mon Nov 12 16:59:11 CST 2018]; root of context hierarchy
+
+
+[INFO ] 2018-11-12 16:59:12,056 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [spring/applicationContext-dao.xml]
+
+
+[INFO ] 2018-11-12 16:59:12,537 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from file [F:\IWork-ideaIU\E3\e3parent\e3-manager\e3-manager-service\target\classes\conf\db.properties]
+
+
+[INFO ] 2018-11-12 16:59:12,538 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from file [F:\IWork-ideaIU\E3\e3parent\e3-manager\e3-manager-service\target\classes\conf\resource.properties]
+
+
+[INFO ] 2018-11-12 16:59:13,945 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:655)
+{dataSource-1} inited

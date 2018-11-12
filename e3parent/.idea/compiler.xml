@@ -19,6 +19,9 @@
         <module name="e3searchinterface" />
         <module name="e3searchservice" />
         <module name="e3searchweb" />
+        <module name="e3ssointerface" />
+        <module name="e3ssoservice" />
+        <module name="e3ssoweb" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
